@@ -1,3 +1,11 @@
 .profilePic {
     border-radius: 50%;
 }
+
+.marginProfileName {
+    margin: 20px 0px 8px;
+}
+
+.marginProfileHeader {
+    margin: 0px 0px 8px;
+}
