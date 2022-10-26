@@ -1,6 +1,5 @@
 import React from "react"
 import Typography from "@mui/material/Typography"
-import * as styles from "../../src/Styles.module.css"
 import DB from "../utils/db.json"
 
 const ProfileInfo = () => {

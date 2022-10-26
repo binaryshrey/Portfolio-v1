@@ -1,5 +1,10 @@
 {
     "name": "Shreyansh Saurabh",
 	"profileImage": "https://avatars.githubusercontent.com/u/35399542?v=4",
-    "profileHeader":  "Fullstack Android Developer"
+    "profileHeader":  "Fullstack Android Developer",
+    "socials" : {
+        "LinkedIn" : "https://in.linkedin.com/in/shreyanshsaurabh",
+        "Github" : "https://github.com/binaryshrey",
+        "Twitter" : "https://twitter.com/binaryShrey"
+    }
 }
