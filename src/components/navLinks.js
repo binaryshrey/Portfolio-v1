@@ -23,10 +23,10 @@ const NavLinks = () => {
         background: isDesktop ? "#303030" : "#404040",
       }}
     >
-      <List disablePadding dense className={styles.navLinksContainer}>
+      <List dense className={styles.navLinksContainer}>
         <div className={styles.navLinks}>
           <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon disablePadding>
+            <ListItemIcon>
               <HomeIcon fontSize="small" />
             </ListItemIcon>
             <ListItemText primary="Home" />
@@ -35,7 +35,7 @@ const NavLinks = () => {
 
         <div className={styles.navLinks}>
           <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon disablePadding>
+            <ListItemIcon>
               <PersonIcon fontSize="small" />
             </ListItemIcon>
             <ListItemText primary="About" />
@@ -44,7 +44,7 @@ const NavLinks = () => {
 
         <div className={styles.navLinks}>
           <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon disablePadding>
+            <ListItemIcon>
               <BookIcon fontSize="small" />
             </ListItemIcon>
             <ListItemText primary="Blogs" />
@@ -53,7 +53,7 @@ const NavLinks = () => {
 
         <div className={styles.navLinks}>
           <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon disablePadding>
+            <ListItemIcon>
               <BusinessCenterIcon fontSize="small" />
             </ListItemIcon>
             <ListItemText primary="Projects" />
@@ -62,7 +62,7 @@ const NavLinks = () => {
 
         <div className={styles.navLinks}>
           <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon disablePadding>
+            <ListItemIcon>
               <ArticleIcon fontSize="small" />
             </ListItemIcon>
             <ListItemText primary="Resume" />
