@@ -30,6 +30,16 @@
             "stars" : 3
         },
         {
+            "name":"Awesome Android Open-Source Projects",
+            "description" : "A curated list of awesome android projects by open-source contributors",
+            "link" : "https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Awesome-Android-Open-Source-Projects/master/assets/AAOSP.png",
+            "tags" : ["Android","Project"],
+            "publishedOn" : "Jan 16, 2021",
+            "readTime" : null,
+            "stars" : 366
+        },
+        {
             "name":"DeepFlick",
             "description" : "DeepFlick : Popular Movies app made as Part of Udacity's Android Nanodegree",
             "link" : "",
