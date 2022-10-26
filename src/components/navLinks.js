@@ -19,7 +19,7 @@ export default function NavLinks() {
   return (
     <div
       style={{
-        paddingTop: isDesktop ? "64px" : "0px",
+        padding: isDesktop ? "64px 12px" : "24px 12px",
         background: isDesktop ? "#303030" : "#404040",
       }}
     >
