@@ -11,31 +11,34 @@ const SocialInfo = () => {
     <>
       <div className={styles.socialContainer}>
         <div className={styles.socialPadding}>
-          <Link
+          <a
             href={DB.socials.LinkedIn}
             style={{ color: "rgba(255, 255, 255, 0.8)" }}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <LinkedInIcon fontSize="small" />
-          </Link>
+          </a>
         </div>
         <div className={styles.socialPadding}>
-          <Link
+          <a
             href={DB.socials.Github}
             style={{ color: "rgba(255, 255, 255, 0.8)" }}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <GitHubIcon fontSize="small" />
-          </Link>
+          </a>
         </div>
         <div className={styles.socialPadding}>
-          <Link
+          <a
             href={DB.socials.Twitter}
             style={{ color: "rgba(255, 255, 255, 0.8)" }}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <TwitterIcon fontSize="small" />
-          </Link>
+          </a>
         </div>
       </div>
     </>
