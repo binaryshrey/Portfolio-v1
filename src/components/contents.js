@@ -23,6 +23,7 @@ const Contents = ({ content }) => {
       style={{
         background: "#424242",
         margin: isDesktop ? "48px 48px 24px" : "48px 12px 24px",
+        borderRadius: "12px",
       }}
     >
       <CardActionArea>
@@ -31,6 +32,7 @@ const Contents = ({ content }) => {
           height="280"
           image={content.imageURI}
           alt="default img"
+          style={{ objectPosition: "top" }}
         />
         <CardContent style={{ padding: "24px" }}>
           <div>
