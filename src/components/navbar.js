@@ -1,14 +1,13 @@
 import React from "react"
-import ProfileImage from "../components/profileImage"
-import ProfileInfo from "../components/profileInfo"
-import SocialInfo from "../components/socialInfo"
-import CssBaseline from "@mui/material/CssBaseline"
-import darkTheme from "../utils/appTheme"
-import NavLinks from "../components/navLinks"
-import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined"
-import IconButton from "@mui/material/IconButton"
 import { useMediaQuery } from "react-responsive"
+import IconButton from "@mui/material/IconButton"
 import CloseIcon from "@mui/icons-material/Close"
+import NavLinks from "../components/navLinks"
+import SocialInfo from "../components/socialInfo"
+import ProfileInfo from "../components/profileInfo"
+import * as styles from "../../src/Styles.module.css"
+import ProfileImage from "../components/profileImage"
+import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined"
 
 const NavBar = () => {
   const [showLinks, setShowLinks] = React.useState(false)
@@ -23,8 +22,8 @@ const NavBar = () => {
 
   return (
     <>
-      <div style={{ padding: "36px 12px 0px" }}>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div className={styles.navbarUpperContainer}>
+        <div className={styles.profileContainer}>
           <ProfileImage />
           {!isDesktop && (
             <div>

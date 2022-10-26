@@ -1,15 +1,16 @@
 import React from "react"
 import CssBaseline from "@mui/material/CssBaseline"
+import { ThemeProvider } from "@mui/material/styles"
+import App from "../components/app"
 import darkTheme from "../utils/appTheme"
-import { ThemeProvider, createTheme } from "@mui/material/styles"
-import NavLinks from "../components/navLinks"
-import NavBar from "../components/navbar"
 
-export default function Home() {
+const Index = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <NavBar />
+      <App />
     </ThemeProvider>
   )
 }
+
+export default Index

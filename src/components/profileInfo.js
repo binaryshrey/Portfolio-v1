@@ -8,7 +8,7 @@ const ProfileInfo = () => {
       <Typography
         variant="body1"
         gutterBottom
-        style={{ margin: "20px 0px 4px" }}
+        style={{ margin: "16px 0px 4px" }}
         fontWeight="600"
       >
         {DB.name}

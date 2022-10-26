@@ -4,7 +4,7 @@
 
 .socialContainer {
     display: flex;
-    margin: 20px 0px 20px 
+    margin: 24px 0px 20px 
 }
 
 .socialPadding {
@@ -19,4 +19,48 @@
 
 .navLinks{
     padding: 12px 0px 12px;
+}
+
+.parentContainer{
+    display: flex;
+    min-width: 100vh;
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.sidebar{
+    flex-shrink: 0;
+    width: 240px;
+    height: 100vh;
+    overflow: auto;
+    position: sticky;
+    top: 0
+}
+
+.contentBody{
+    flex-grow: 1
+}
+
+.navbarUpperContainer{
+    padding: 48px 20px 0px
+}
+
+.profileContainer{
+    display: flex;
+    justify-content: space-between 
+}
+
+.cardClock {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 48px
+}
+
+.displayFlex{
+    display: flex
+}
+
+.cardTime{
+    display: flex;
+    margin-top : 32px
 }

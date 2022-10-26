@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-import DB from "../utils/db.json"
-import * as styles from "../../src/Styles.module.css"
-import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import GitHubIcon from "@mui/icons-material/GitHub"
 import TwitterIcon from "@mui/icons-material/Twitter"
+import LinkedInIcon from "@mui/icons-material/LinkedIn"
+import DB from "../utils/db.json"
+import * as styles from "../../src/Styles.module.css"
 
 const SocialInfo = () => {
   return (

@@ -1,17 +1,17 @@
 import * as React from "react"
 import List from "@mui/material/List"
-import ListItemButton from "@mui/material/ListItemButton"
-import ListItemIcon from "@mui/material/ListItemIcon"
-import ListItemText from "@mui/material/ListItemText"
-import HomeIcon from "@mui/icons-material/Home"
-import PersonIcon from "@mui/icons-material/Person"
-import BusinessCenterIcon from "@mui/icons-material/BusinessCenter"
 import BookIcon from "@mui/icons-material/Book"
+import HomeIcon from "@mui/icons-material/Home"
+import { useMediaQuery } from "react-responsive"
+import PersonIcon from "@mui/icons-material/Person"
 import ArticleIcon from "@mui/icons-material/Article"
 import * as styles from "../../src/Styles.module.css"
-import { useMediaQuery } from "react-responsive"
+import ListItemIcon from "@mui/material/ListItemIcon"
+import ListItemText from "@mui/material/ListItemText"
+import ListItemButton from "@mui/material/ListItemButton"
+import BusinessCenterIcon from "@mui/icons-material/BusinessCenter"
 
-export default function NavLinks() {
+const NavLinks = () => {
   const isDesktop = useMediaQuery({
     query: "(min-width: 768px)",
   })
@@ -19,7 +19,7 @@ export default function NavLinks() {
   return (
     <div
       style={{
-        padding: isDesktop ? "64px 12px" : "24px 12px",
+        padding: "20px 20px",
         background: isDesktop ? "#303030" : "#404040",
       }}
     >
@@ -72,3 +72,5 @@ export default function NavLinks() {
     </div>
   )
 }
+
+export default NavLinks
