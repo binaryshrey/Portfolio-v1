@@ -16,7 +16,8 @@
             "tags" : ["React","Blog"],
             "link" : "",
             "publishedOn" : "Aug 02, 2022",
-            "readTime" : "8"
+            "readTime" : "8",
+            "stars" : null
         },
         {
             "name":"Dice",
@@ -25,7 +26,8 @@
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner.png",
             "tags" : ["Android","Project"],
             "publishedOn" : "Jan 16, 2022",
-            "readTime" : "10"
+            "readTime" : null,
+            "stars" : 3
         },
         {
             "name":"DeepFlick",
@@ -34,7 +36,8 @@
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview.png",
             "tags" : ["Android","Project"],
             "publishedOn" : "Mar 06, 2022",
-            "readTime" : "10"
+            "readTime" : null,
+            "stars" : 3
         }
     ]
 

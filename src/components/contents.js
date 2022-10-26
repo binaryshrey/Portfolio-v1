@@ -4,6 +4,7 @@ import Card from "@mui/material/Card"
 import Chip from "@mui/material/Chip"
 import Stack from "@mui/material/Stack"
 import { CardActionArea } from "@mui/material"
+import StarIcon from "@mui/icons-material/Star"
 import CardMedia from "@mui/material/CardMedia"
 import { useMediaQuery } from "react-responsive"
 import Typography from "@mui/material/Typography"
@@ -60,14 +61,28 @@ const Contents = ({ content }) => {
               </div>
 
               <div className={styles.cardClock}>
-                <AccessTimeOutlinedIcon fontSize="small" />
-                <Typography
-                  variant="body2"
-                  color="text.secondary"
-                  style={{ marginLeft: "12px" }}
-                >
-                  {content.readTime} min read
-                </Typography>
+                {content.readTime ? (
+                  <AccessTimeOutlinedIcon fontSize="small" />
+                ) : (
+                  <StarIcon fontSize="small" />
+                )}
+                {content.readTime ? (
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    style={{ marginLeft: "12px" }}
+                  >
+                    {content.readTime} min read
+                  </Typography>
+                ) : (
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    style={{ marginLeft: "12px" }}
+                  >
+                    {content.stars}
+                  </Typography>
+                )}
               </div>
             </div>
           </div>
