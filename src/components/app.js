@@ -1,4 +1,5 @@
 import React from "react"
+import uuid from "react-uuid"
 import { useMediaQuery } from "react-responsive"
 import DB from "../utils/db.json"
 import NavBar from "../components/navbar"
@@ -21,7 +22,7 @@ const App = () => {
           <main className={styles.contentBody}>
             {DB?.content &&
               DB?.content.map(item => {
-                return <Contents content={item} />
+                return <Contents key={uuid()} content={item} />
               })}
           </main>
         </div>
@@ -30,7 +31,7 @@ const App = () => {
           <NavBar />
           {DB?.content &&
             DB?.content.map(item => {
-              return <Contents content={item} />
+              return <Contents key={uuid()} content={item} />
             })}
         </>
       )}

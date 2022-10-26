@@ -1,4 +1,5 @@
 import React from "react"
+import uuid from "react-uuid"
 import Card from "@mui/material/Card"
 import Chip from "@mui/material/Chip"
 import Stack from "@mui/material/Stack"
@@ -34,7 +35,9 @@ const Contents = ({ content }) => {
           <div>
             <Stack direction="row" spacing={1} paddingBottom="24px">
               {content?.tags?.map(tag => {
-                return <Chip label={tag} size="small" color="success" />
+                return (
+                  <Chip key={uuid()} label={tag} size="small" color="success" />
+                )
               })}
             </Stack>
             <Typography gutterBottom variant="h6" component="div">

@@ -10,31 +10,31 @@
 
     "content" : [
         {
-            "name":"Hello World",
-            "description" : "Default Description",
-            "imageURI" : "https://demo.stack.jimmycai.com/p/hello-world/cover_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg",
-            "tags" : ["Android","Blog"],
+            "name":"REACT-101",
+            "description" : "How to Get Started With React – A Beginner's Guide",
+            "imageURI" : "https://miro.medium.com/max/4800/1*LTbllWagpO39LD2iPUddUw.png",
+            "tags" : ["React","Blog"],
             "link" : "",
-            "publishedOn" : "Mar 06, 2022",
-            "readTime" : "1"
+            "publishedOn" : "Aug 02, 2022",
+            "readTime" : "8"
         },
         {
-            "name":"Hello World",
-            "description" : "Default Description",
-            "link" : "",
-            "imageURI" : "https://demo.stack.jimmycai.com/p/hello-world/cover_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg",
-            "tags" : ["Android","Blog"],
-            "publishedOn" : "Mar 06, 2022",
-            "readTime" : "1"
+            "name":"Dice",
+            "description" : "A simple and intuitive dice-roller app",
+            "link" : "https://github.com/binaryshrey/Dice",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner.png",
+            "tags" : ["Android","Project"],
+            "publishedOn" : "Jan 16, 2022",
+            "readTime" : "10"
         },
         {
-            "name":"Hello World",
-            "description" : "Default Description",
+            "name":"DeepFlick",
+            "description" : "DeepFlick : Popular Movies app made as Part of Udacity's Android Nanodegree",
             "link" : "",
-            "imageURI" : "https://demo.stack.jimmycai.com/p/hello-world/cover_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview.png",
             "tags" : ["Android","Project"],
             "publishedOn" : "Mar 06, 2022",
-            "readTime" : "1"
+            "readTime" : "10"
         }
     ]
 
