@@ -10,3 +10,13 @@
 .socialPadding {
     padding-right: 4px
 }
+
+.navLinksContainer {
+    width: 100%;
+    max-width: 360;
+    background-color: 303030;
+}
+
+.navLinks{
+    padding: 12px 0px 12px;
+}

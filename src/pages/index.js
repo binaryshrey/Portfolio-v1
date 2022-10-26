@@ -5,6 +5,7 @@ import SocialInfo from "../components/socialInfo"
 import CssBaseline from "@mui/material/CssBaseline"
 import darkTheme from "../utils/appTheme"
 import { ThemeProvider, createTheme } from "@mui/material/styles"
+import NavLinks from "../components/navLinks"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ProfileImage />
       <ProfileInfo />
       <SocialInfo />
+      <NavLinks />
     </ThemeProvider>
   )
 }
