@@ -14,7 +14,7 @@
             "description" : "How to Get Started With React – A Beginner's Guide",
             "imageURI" : "https://miro.medium.com/max/4800/1*LTbllWagpO39LD2iPUddUw.png",
             "tags" : ["React","Blog"],
-            "link" : "",
+            "link" : "https://medium.com/@binaryshrey/react-101-f4ec2fe0769d",
             "publishedOn" : "Aug 02, 2022",
             "readTime" : "8",
             "stars" : null
@@ -42,7 +42,7 @@
         {
             "name":"DeepFlick",
             "description" : "DeepFlick : Popular Movies app made as Part of Udacity's Android Nanodegree",
-            "link" : "",
+            "link" : "https://github.com/binaryshrey/Deepflick",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview.webp",
             "tags" : ["Android","Project"],
             "publishedOn" : "Mar 06, 2022",

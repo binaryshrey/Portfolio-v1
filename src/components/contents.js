@@ -19,78 +19,92 @@ const Contents = ({ content }) => {
   })
 
   return (
-    <Card
-      style={{
-        background: "#424242",
-        margin: isDesktop ? "48px 48px 24px" : "48px 12px 24px",
-        borderRadius: "12px",
-      }}
-    >
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="280"
-          image={content.imageURI}
-          alt="default img"
-          style={{ objectPosition: "top" }}
-        />
-        <CardContent style={{ padding: "24px" }}>
-          <div>
-            <Stack direction="row" spacing={1} paddingBottom="24px">
-              {content?.tags?.map(tag => {
-                return (
-                  <Chip key={uuid()} label={tag} size="small" color="success" />
-                )
-              })}
-            </Stack>
-            <Typography gutterBottom variant="h6" component="div">
-              {content.name}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {content.description}
-            </Typography>
-
-            <div className={styles.displayFlex}>
-              <div className={styles.cardTime}>
-                <CalendarMonthOutlinedIcon fontSize="small" />
-                <Typography
-                  variant="body2"
-                  color="text.secondary"
-                  style={{ marginLeft: "12px" }}
-                >
-                  {content.publishedOn}
+    <div>
+      <a
+        href={content.link}
+        style={{ color: "rgba(255, 255, 255, 0.8)", textDecoration: "None" }}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Card
+          style={{
+            background: "#424242",
+            margin: isDesktop ? "48px 48px 24px" : "48px 12px 24px",
+            borderRadius: "12px",
+          }}
+        >
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="280"
+              image={content.imageURI}
+              alt="default img"
+              style={{ objectPosition: "top" }}
+            />
+            <CardContent style={{ padding: "24px" }}>
+              <div>
+                <Stack direction="row" spacing={1} paddingBottom="24px">
+                  {content?.tags?.map(tag => {
+                    return (
+                      <Chip
+                        key={uuid()}
+                        label={tag}
+                        size="small"
+                        color="success"
+                      />
+                    )
+                  })}
+                </Stack>
+                <Typography gutterBottom variant="h6" component="div">
+                  {content.name}
                 </Typography>
-              </div>
+                <Typography variant="body2" color="text.secondary">
+                  {content.description}
+                </Typography>
 
-              <div className={styles.cardClock}>
-                {content.readTime ? (
-                  <AccessTimeOutlinedIcon fontSize="small" />
-                ) : (
-                  <StarIcon fontSize="small" />
-                )}
-                {content.readTime ? (
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    style={{ marginLeft: "12px" }}
-                  >
-                    {content.readTime} min read
-                  </Typography>
-                ) : (
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    style={{ marginLeft: "12px" }}
-                  >
-                    {content.stars}
-                  </Typography>
-                )}
+                <div className={styles.displayFlex}>
+                  <div className={styles.cardTime}>
+                    <CalendarMonthOutlinedIcon fontSize="small" />
+                    <Typography
+                      variant="body2"
+                      color="text.secondary"
+                      style={{ marginLeft: "12px" }}
+                    >
+                      {content.publishedOn}
+                    </Typography>
+                  </div>
+
+                  <div className={styles.cardClock}>
+                    {content.readTime ? (
+                      <AccessTimeOutlinedIcon fontSize="small" />
+                    ) : (
+                      <StarIcon fontSize="small" />
+                    )}
+                    {content.readTime ? (
+                      <Typography
+                        variant="body2"
+                        color="text.secondary"
+                        style={{ marginLeft: "12px" }}
+                      >
+                        {content.readTime} min read
+                      </Typography>
+                    ) : (
+                      <Typography
+                        variant="body2"
+                        color="text.secondary"
+                        style={{ marginLeft: "12px" }}
+                      >
+                        {content.stars}
+                      </Typography>
+                    )}
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </a>
+    </div>
   )
 }
 
