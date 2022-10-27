@@ -5,6 +5,7 @@ import DB from "../utils/db.json"
 import NavBar from "../components/navbar"
 import Contents from "../components/contents"
 import * as styles from "../../src/Styles.module.css"
+import AboutContent from "./aboutContent"
 
 const App = ({ filter }) => {
   const isDesktop = useMediaQuery({
@@ -21,7 +22,7 @@ const App = ({ filter }) => {
 
           <main className={styles.contentBody}>
             {filter === "About" ? (
-              <p>about</p>
+              <AboutContent />
             ) : (
               <div>
                 {DB?.content &&
