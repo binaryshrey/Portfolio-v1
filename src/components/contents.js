@@ -63,7 +63,12 @@ const Contents = ({ content }) => {
                     )
                   })}
                 </Stack>
-                <Typography gutterBottom variant="h6" component="div">
+                <Typography
+                  gutterBottom
+                  variant="h6"
+                  component="div"
+                  color="text.primary"
+                >
                   {content.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">

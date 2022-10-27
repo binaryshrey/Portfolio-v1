@@ -6,6 +6,14 @@ const darkTheme = createTheme({
     background: {
       default: "#303030",
     },
+
+    // mode: "light",
+    // background: {
+    //   default: "#FFF",
+    // },
+    // action: {
+    //   disabledBackground: "rgba(0, 0, 0, 0.08)",
+    //},
   },
 })
 
