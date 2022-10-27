@@ -18,6 +18,10 @@ const Contents = ({ content }) => {
     query: "(min-width: 768px)",
   })
 
+  const isMobile = useMediaQuery({
+    query: "(max-width: 600px)",
+  })
+
   return (
     <div>
       <a
@@ -37,7 +41,7 @@ const Contents = ({ content }) => {
             <CardMedia
               component="img"
               height="280"
-              image={content.imageURI}
+              image={isMobile ? content.imageURIMobile : content.imageURI}
               alt="default img"
               style={{ objectPosition: "top" }}
             />
