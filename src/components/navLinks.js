@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 import List from "@mui/material/List"
 import BookIcon from "@mui/icons-material/Book"
 import HomeIcon from "@mui/icons-material/Home"
@@ -24,50 +25,63 @@ const NavLinks = () => {
       }}
     >
       <List dense className={styles.navLinksContainer}>
-        <div className={styles.navLinks}>
-          <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon>
-              <HomeIcon fontSize="small" />
-            </ListItemIcon>
-            <ListItemText primary="Home" />
-          </ListItemButton>
-        </div>
+        <Link to="/" style={{ textDecoration: "None", color: "inherit" }}>
+          <div className={styles.navLinks}>
+            <ListItemButton sx={{ padding: 0 }}>
+              <ListItemIcon>
+                <HomeIcon fontSize="small" />
+              </ListItemIcon>
+              <ListItemText primary="Home" />
+            </ListItemButton>
+          </div>
+        </Link>
 
-        <div className={styles.navLinks}>
-          <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon>
-              <PersonIcon fontSize="small" />
-            </ListItemIcon>
-            <ListItemText primary="About" />
-          </ListItemButton>
-        </div>
+        <Link to="/about" style={{ textDecoration: "None", color: "inherit" }}>
+          <div className={styles.navLinks}>
+            <ListItemButton sx={{ padding: 0 }}>
+              <ListItemIcon>
+                <PersonIcon fontSize="small" />
+              </ListItemIcon>
+              <ListItemText primary="About" />
+            </ListItemButton>
+          </div>
+        </Link>
 
-        <div className={styles.navLinks}>
-          <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon>
-              <BookIcon fontSize="small" />
-            </ListItemIcon>
-            <ListItemText primary="Blogs" />
-          </ListItemButton>
-        </div>
+        <Link to="/blogs" style={{ textDecoration: "None", color: "inherit" }}>
+          <div className={styles.navLinks}>
+            <ListItemButton sx={{ padding: 0 }}>
+              <ListItemIcon>
+                <BookIcon fontSize="small" />
+              </ListItemIcon>
+              <ListItemText primary="Blogs" />
+            </ListItemButton>
+          </div>
+        </Link>
 
-        <div className={styles.navLinks}>
-          <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon>
-              <BusinessCenterIcon fontSize="small" />
-            </ListItemIcon>
-            <ListItemText primary="Projects" />
-          </ListItemButton>
-        </div>
+        <Link
+          to="/projects"
+          style={{ textDecoration: "None", color: "inherit" }}
+        >
+          <div className={styles.navLinks}>
+            <ListItemButton sx={{ padding: 0 }}>
+              <ListItemIcon>
+                <BusinessCenterIcon fontSize="small" />
+              </ListItemIcon>
+              <ListItemText primary="Projects" />
+            </ListItemButton>
+          </div>
+        </Link>
 
-        <div className={styles.navLinks}>
-          <ListItemButton sx={{ padding: 0 }}>
-            <ListItemIcon>
-              <ArticleIcon fontSize="small" />
-            </ListItemIcon>
-            <ListItemText primary="Resume" />
-          </ListItemButton>
-        </div>
+        <Link to="/resume" style={{ textDecoration: "None", color: "inherit" }}>
+          <div className={styles.navLinks}>
+            <ListItemButton sx={{ padding: 0 }}>
+              <ListItemIcon>
+                <ArticleIcon fontSize="small" />
+              </ListItemIcon>
+              <ListItemText primary="Resume" />
+            </ListItemButton>
+          </div>
+        </Link>
       </List>
     </div>
   )

@@ -6,7 +6,7 @@ import NavBar from "../components/navbar"
 import Contents from "../components/contents"
 import * as styles from "../../src/Styles.module.css"
 
-const App = () => {
+const App = ({ filter }) => {
   const isDesktop = useMediaQuery({
     query: "(min-width: 768px)",
   })
@@ -20,19 +20,43 @@ const App = () => {
           </aside>
 
           <main className={styles.contentBody}>
-            {DB?.content &&
-              DB?.content.map(item => {
-                return <Contents key={uuid()} content={item} />
-              })}
+            {filter === "About" ? (
+              <p>about</p>
+            ) : (
+              <div>
+                {DB?.content &&
+                  DB?.content.map(item => {
+                    if (filter === "Home") {
+                      return <Contents key={uuid()} content={item} />
+                    } else {
+                      return item.tags.includes(filter) ? (
+                        <Contents key={uuid()} content={item} />
+                      ) : null
+                    }
+                  })}
+              </div>
+            )}
           </main>
         </div>
       ) : (
         <>
           <NavBar />
-          {DB?.content &&
-            DB?.content.map(item => {
-              return <Contents key={uuid()} content={item} />
-            })}
+          {filter === "About" ? (
+            <p>about</p>
+          ) : (
+            <div>
+              {DB?.content &&
+                DB?.content.map(item => {
+                  if (filter === "Home") {
+                    return <Contents key={uuid()} content={item} />
+                  } else {
+                    return item.tags.includes(filter) ? (
+                      <Contents key={uuid()} content={item} />
+                    ) : null
+                  }
+                })}
+            </div>
+          )}
         </>
       )}
     </>

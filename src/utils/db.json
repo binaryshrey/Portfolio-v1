@@ -13,6 +13,7 @@
             "name":"REACT-101",
             "description" : "How to Get Started With React – A Beginner's Guide",
             "imageURI" : "https://miro.medium.com/max/4800/1*LTbllWagpO39LD2iPUddUw.png",
+            "imageURIMobile":"",
             "tags" : ["React","Blog"],
             "link" : "https://medium.com/@binaryshrey/react-101-f4ec2fe0769d",
             "publishedOn" : "Aug 02, 2022",
@@ -24,6 +25,7 @@
             "description" : "A simple and intuitive dice-roller app",
             "link" : "https://github.com/binaryshrey/Dice",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_mobile.webp",
             "tags" : ["Android","Project"],
             "publishedOn" : "Jan 16, 2022",
             "readTime" : null,
@@ -34,6 +36,7 @@
             "description" : "A curated list of awesome android projects by open-source contributors",
             "link" : "https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Awesome-Android-Open-Source-Projects/master/assets/AAOSP.png",
+            "imageURIMobile":"",
             "tags" : ["Android","Project"],
             "publishedOn" : "Jan 16, 2021",
             "readTime" : null,
@@ -44,10 +47,22 @@
             "description" : "DeepFlick : Popular Movies app made as Part of Udacity's Android Nanodegree",
             "link" : "https://github.com/binaryshrey/Deepflick",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview_Mobile.webp",
             "tags" : ["Android","Project"],
             "publishedOn" : "Mar 06, 2022",
             "readTime" : null,
             "stars" : 3
+        },
+        {
+            "name":"Memory Game",
+            "description" : "An intuitive game to match the set of 8 cards as fast as you can.",
+            "link" : "https://github.com/binaryshrey/Memory-Game",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Memory-Game/master/Overview.webp",
+            "imageURIMobile":"",
+            "tags" : ["JavaScript","Project"],
+            "publishedOn" : "Oct 10, 2018",
+            "readTime" : null,
+            "stars" : 1
         }
     ]
 

@@ -1,16 +1,8 @@
 import React from "react"
-import CssBaseline from "@mui/material/CssBaseline"
-import { ThemeProvider } from "@mui/material/styles"
-import App from "../components/app"
-import darkTheme from "../utils/appTheme"
+import Container from "../components/container"
 
 const Index = () => {
-  return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <App />
-    </ThemeProvider>
-  )
+  return <Container filter={"Home"} />
 }
 
 export default Index
