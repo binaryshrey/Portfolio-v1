@@ -20,7 +20,7 @@ const NavLinks = () => {
   })
 
   const containerStyle = {
-    padding: "20px 20px",
+    padding: "20px 0px ",
     background: isDesktop ? "#303030" : "#404040",
   }
 
@@ -38,7 +38,7 @@ const NavLinks = () => {
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: 0 }}>
+            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
               <ListItemIcon
                 style={{
                   textDecoration: "None",
@@ -66,7 +66,7 @@ const NavLinks = () => {
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: 0 }}>
+            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
               <ListItemIcon
                 style={{
                   textDecoration: "None",
@@ -94,7 +94,7 @@ const NavLinks = () => {
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: 0 }}>
+            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
               <ListItemIcon
                 style={{
                   textDecoration: "None",
@@ -122,7 +122,7 @@ const NavLinks = () => {
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: 0 }}>
+            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
               <ListItemIcon
                 style={{
                   textDecoration: "None",
@@ -150,7 +150,7 @@ const NavLinks = () => {
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: 0 }}>
+            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
               <ListItemIcon
                 style={{
                   textDecoration: "None",

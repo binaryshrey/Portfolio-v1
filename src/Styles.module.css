@@ -7,6 +7,10 @@
     margin: 24px 0px 20px 
 }
 
+.LinkedInIcon:hover {
+    background-color: white;
+}
+
 .socialPadding {
     padding-right: 8px
 }

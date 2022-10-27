@@ -1,4 +1,5 @@
 import React from "react"
+import { IconButton } from "@mui/material"
 import GitHubIcon from "@mui/icons-material/GitHub"
 import TwitterIcon from "@mui/icons-material/Twitter"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
@@ -16,7 +17,10 @@ const SocialInfo = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedInIcon fontSize="small" />
+            <LinkedInIcon
+              fontSize="small"
+              sx={{ "&:hover": { color: "white" } }}
+            />
           </a>
         </div>
         <div className={styles.socialPadding}>
@@ -26,7 +30,10 @@ const SocialInfo = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GitHubIcon fontSize="small" />
+            <GitHubIcon
+              fontSize="small"
+              sx={{ "&:hover": { color: "white" } }}
+            />
           </a>
         </div>
         <div className={styles.socialPadding}>
@@ -36,7 +43,10 @@ const SocialInfo = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <TwitterIcon fontSize="small" />
+            <TwitterIcon
+              fontSize="small"
+              sx={{ "&:hover": { color: "white" } }}
+            />
           </a>
         </div>
       </div>
