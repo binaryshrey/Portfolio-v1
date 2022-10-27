@@ -43,7 +43,7 @@ const App = ({ filter }) => {
         <>
           <NavBar />
           {filter === "About" ? (
-            <p>about</p>
+            <AboutContent />
           ) : (
             <div>
               {DB?.content &&

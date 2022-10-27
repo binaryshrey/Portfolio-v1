@@ -12,7 +12,7 @@ const SocialInfo = () => {
         <div className={styles.socialPadding}>
           <a
             href={DB.socials.LinkedIn}
-            style={{ color: "rgba(255, 255, 255, 0.8)" }}
+            style={{ color: "rgba(255, 255, 255, 0.6)" }}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,7 +22,7 @@ const SocialInfo = () => {
         <div className={styles.socialPadding}>
           <a
             href={DB.socials.Github}
-            style={{ color: "rgba(255, 255, 255, 0.8)" }}
+            style={{ color: "rgba(255, 255, 255, 0.6)" }}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -32,7 +32,7 @@ const SocialInfo = () => {
         <div className={styles.socialPadding}>
           <a
             href={DB.socials.Twitter}
-            style={{ color: "rgba(255, 255, 255, 0.8)" }}
+            style={{ color: "rgba(255, 255, 255, 0.6)" }}
             target="_blank"
             rel="noopener noreferrer"
           >

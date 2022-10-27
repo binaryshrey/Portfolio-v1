@@ -13,22 +13,41 @@ import ListItemButton from "@mui/material/ListItemButton"
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter"
 
 const NavLinks = () => {
+  let pathName = window.location.pathname
+
   const isDesktop = useMediaQuery({
     query: "(min-width: 768px)",
   })
 
+  const containerStyle = {
+    padding: "20px 20px",
+    background: isDesktop ? "#303030" : "#404040",
+  }
+
   return (
-    <div
-      style={{
-        padding: "20px 20px",
-        background: isDesktop ? "#303030" : "#404040",
-      }}
-    >
+    <div style={containerStyle}>
       <List dense className={styles.navLinksContainer}>
-        <Link to="/" style={{ textDecoration: "None", color: "inherit" }}>
+        <Link
+          to="/"
+          style={{
+            textDecoration: "None",
+            color:
+              pathName === "/"
+                ? "rgba(255, 255, 255)"
+                : "rgba(255, 255, 255, 0.6)",
+          }}
+        >
           <div className={styles.navLinks}>
             <ListItemButton sx={{ padding: 0 }}>
-              <ListItemIcon>
+              <ListItemIcon
+                style={{
+                  textDecoration: "None",
+                  color:
+                    pathName === "/"
+                      ? "rgba(255, 255, 255)"
+                      : "rgba(255, 255, 255, 0.6)",
+                }}
+              >
                 <HomeIcon fontSize="small" />
               </ListItemIcon>
               <ListItemText primary="Home" />
@@ -36,10 +55,27 @@ const NavLinks = () => {
           </div>
         </Link>
 
-        <Link to="/about" style={{ textDecoration: "None", color: "inherit" }}>
+        <Link
+          to="/about"
+          style={{
+            textDecoration: "None",
+            color:
+              pathName === "/about"
+                ? "rgba(255, 255, 255)"
+                : "rgba(255, 255, 255, 0.6)",
+          }}
+        >
           <div className={styles.navLinks}>
             <ListItemButton sx={{ padding: 0 }}>
-              <ListItemIcon>
+              <ListItemIcon
+                style={{
+                  textDecoration: "None",
+                  color:
+                    pathName === "/about"
+                      ? "rgba(255, 255, 255)"
+                      : "rgba(255, 255, 255, 0.6)",
+                }}
+              >
                 <PersonIcon fontSize="small" />
               </ListItemIcon>
               <ListItemText primary="About" />
@@ -47,10 +83,27 @@ const NavLinks = () => {
           </div>
         </Link>
 
-        <Link to="/blogs" style={{ textDecoration: "None", color: "inherit" }}>
+        <Link
+          to="/blogs"
+          style={{
+            textDecoration: "None",
+            color:
+              pathName === "/blogs"
+                ? "rgba(255, 255, 255)"
+                : "rgba(255, 255, 255, 0.6)",
+          }}
+        >
           <div className={styles.navLinks}>
             <ListItemButton sx={{ padding: 0 }}>
-              <ListItemIcon>
+              <ListItemIcon
+                style={{
+                  textDecoration: "None",
+                  color:
+                    pathName === "/blogs"
+                      ? "rgba(255, 255, 255)"
+                      : "rgba(255, 255, 255, 0.6)",
+                }}
+              >
                 <BookIcon fontSize="small" />
               </ListItemIcon>
               <ListItemText primary="Blogs" />
@@ -60,11 +113,25 @@ const NavLinks = () => {
 
         <Link
           to="/projects"
-          style={{ textDecoration: "None", color: "inherit" }}
+          style={{
+            textDecoration: "None",
+            color:
+              pathName === "/projects"
+                ? "rgba(255, 255, 255)"
+                : "rgba(255, 255, 255, 0.6)",
+          }}
         >
           <div className={styles.navLinks}>
             <ListItemButton sx={{ padding: 0 }}>
-              <ListItemIcon>
+              <ListItemIcon
+                style={{
+                  textDecoration: "None",
+                  color:
+                    pathName === "/projects"
+                      ? "rgba(255, 255, 255)"
+                      : "rgba(255, 255, 255, 0.6)",
+                }}
+              >
                 <BusinessCenterIcon fontSize="small" />
               </ListItemIcon>
               <ListItemText primary="Projects" />
@@ -72,10 +139,27 @@ const NavLinks = () => {
           </div>
         </Link>
 
-        <Link to="/resume" style={{ textDecoration: "None", color: "inherit" }}>
+        <Link
+          to="/resume"
+          style={{
+            textDecoration: "None",
+            color:
+              pathName === "/resume"
+                ? "rgba(255, 255, 255)"
+                : "rgba(255, 255, 255, 0.6)",
+          }}
+        >
           <div className={styles.navLinks}>
             <ListItemButton sx={{ padding: 0 }}>
-              <ListItemIcon>
+              <ListItemIcon
+                style={{
+                  textDecoration: "None",
+                  color:
+                    pathName === "/resume"
+                      ? "rgba(255, 255, 255)"
+                      : "rgba(255, 255, 255, 0.6)",
+                }}
+              >
                 <ArticleIcon fontSize="small" />
               </ListItemIcon>
               <ListItemText primary="Resume" />

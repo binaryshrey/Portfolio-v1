@@ -12,7 +12,7 @@
     "content" : [
         {
             "name":"REACT-101",
-            "description" : "How to Get Started With React – A Beginner's Guide",
+            "description" : "How to get started with React – A Beginner's Guide",
             "imageURI" : "https://miro.medium.com/max/4800/1*LTbllWagpO39LD2iPUddUw.png",
             "imageURIMobile":"https://miro.medium.com/max/4800/1*LTbllWagpO39LD2iPUddUw.png",
             "tags" : ["React","Blog"],
