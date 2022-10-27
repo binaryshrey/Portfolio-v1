@@ -1,6 +1,7 @@
 import * as React from "react"
 import DB from "../utils/db.json"
 import Card from "@mui/material/Card"
+import darkTheme from "../utils/appTheme"
 import { useMediaQuery } from "react-responsive"
 import Typography from "@mui/material/Typography"
 import CardContent from "@mui/material/CardContent"
@@ -13,9 +14,9 @@ const AboutContent = () => {
   return (
     <Card
       style={{
-        background: "#424242",
-        margin: isDesktop ? "48px 48px 24px" : "48px 12px 24px",
-        borderRadius: "12px",
+        background: darkTheme.palette.action.disabledBackground,
+        margin: isDesktop ? "3rem 3rem 1.5rem" : "3rem 0.75rem 1.5rem",
+        borderRadius: "0.75rem",
       }}
     >
       <CardContent>

@@ -4,7 +4,7 @@
 
 .socialContainer {
     display: flex;
-    margin: 24px 0px 20px 
+    margin: 1.5rem 0rem 1.25rem 
 }
 
 .LinkedInIcon:hover {
@@ -12,17 +12,17 @@
 }
 
 .socialPadding {
-    padding-right: 8px
+    padding-right: 0.5rem
 }
 
 .navLinksContainer {
     width: 100%;
-    max-width: 360;
+    max-width: 22.5rem;
     background-color: 303030;
 }
 
 .navLinks{
-    padding: 12px 0px 12px;
+    padding: 0.75rem 0rem 0.75rem;
 }
 
 .parentContainer{
@@ -34,7 +34,7 @@
 
 .sidebar{
     flex-shrink: 0;
-    width: 240px;
+    width: 15rem;
     height: 100vh;
     overflow: auto;
     position: sticky;
@@ -46,7 +46,7 @@
 }
 
 .navbarUpperContainer{
-    padding: 48px 20px 0px
+    padding: 3rem 1.25rem 0rem
 }
 
 .profileContainer{
@@ -56,8 +56,8 @@
 
 .cardClock {
     display: flex;
-    margin-top: 32px;
-    margin-left: 48px
+    margin-top: 2rem;
+    margin-left: 3rem
 }
 
 .displayFlex{
@@ -66,5 +66,5 @@
 
 .cardTime{
     display: flex;
-    margin-top : 32px
+    margin-top : 2rem
 }

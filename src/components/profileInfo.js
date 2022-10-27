@@ -1,6 +1,7 @@
 import React from "react"
 import Typography from "@mui/material/Typography"
 import DB from "../utils/db.json"
+import darkTheme from "../utils/appTheme"
 
 const ProfileInfo = () => {
   return (
@@ -8,7 +9,7 @@ const ProfileInfo = () => {
       <Typography
         variant="body1"
         gutterBottom
-        style={{ margin: "16px 0px 4px" }}
+        sx={{ margin: "1rem 0rem 0.25rem" }}
         fontWeight="600"
       >
         {DB.name}
@@ -17,8 +18,8 @@ const ProfileInfo = () => {
       <Typography
         variant="body2"
         gutterBottom
-        style={{ margin: "0px 0px 4px" }}
-        color="rgba(255, 255, 255, 0.6)"
+        sx={{ margin: "0rem 0rem 0.25rem" }}
+        color={darkTheme.palette.text.secondary}
       >
         {DB.profileHeader}
       </Typography>

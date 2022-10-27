@@ -3,6 +3,7 @@ import uuid from "react-uuid"
 import Card from "@mui/material/Card"
 import Chip from "@mui/material/Chip"
 import Stack from "@mui/material/Stack"
+import darkTheme from "../utils/appTheme"
 import { CardActionArea } from "@mui/material"
 import StarIcon from "@mui/icons-material/Star"
 import CardMedia from "@mui/material/CardMedia"
@@ -26,28 +27,31 @@ const Contents = ({ content }) => {
     <div>
       <Card
         style={{
-          background: "#424242",
-          margin: isDesktop ? "48px 48px 24px" : "48px 12px 24px",
-          borderRadius: "12px",
+          background: darkTheme.palette.action.disabledBackground,
+          margin: isDesktop ? "3rem 3rem 1.5rem" : "3rem 0.75rem 1.5rem",
+          borderRadius: "0.75rem",
         }}
       >
         <a
           href={content.link}
-          style={{ color: "rgba(255, 255, 255, 0.8)", textDecoration: "None" }}
+          style={{
+            color: darkTheme.palette.text.secondary,
+            textDecoration: "None",
+          }}
           target="_blank"
           rel="noopener noreferrer"
         >
           <CardActionArea>
             <CardMedia
               component="img"
-              height="280"
+              height="280rem"
               image={isMobile ? content.imageURIMobile : content.imageURI}
               alt="default img"
               style={{ objectPosition: "top" }}
             />
-            <CardContent style={{ padding: "24px" }}>
+            <CardContent style={{ padding: "1.5rem" }}>
               <div>
-                <Stack direction="row" spacing={1} paddingBottom="24px">
+                <Stack direction="row" spacing={1} paddingBottom="1.5rem">
                   {content?.tags?.map(tag => {
                     return (
                       <Chip
@@ -88,7 +92,7 @@ const Contents = ({ content }) => {
                       <Typography
                         variant="body2"
                         color="text.secondary"
-                        style={{ marginLeft: "12px" }}
+                        style={{ marginLeft: "0.75rem" }}
                       >
                         {content.readTime} min read
                       </Typography>
@@ -96,7 +100,7 @@ const Contents = ({ content }) => {
                       <Typography
                         variant="body2"
                         color="text.secondary"
-                        style={{ marginLeft: "12px" }}
+                        style={{ marginLeft: "0.75rem" }}
                       >
                         {content.stars}
                       </Typography>

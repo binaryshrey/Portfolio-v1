@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import List from "@mui/material/List"
+import darkTheme from "../utils/appTheme"
 import BookIcon from "@mui/icons-material/Book"
 import HomeIcon from "@mui/icons-material/Home"
 import { useMediaQuery } from "react-responsive"
@@ -20,8 +21,10 @@ const NavLinks = () => {
   })
 
   const containerStyle = {
-    padding: "20px 0px ",
-    background: isDesktop ? "#303030" : "#404040",
+    padding: "1.25rem 0rem ",
+    background: isDesktop
+      ? darkTheme.palette.background.default
+      : darkTheme.palette.divider,
   }
 
   return (
@@ -33,19 +36,21 @@ const NavLinks = () => {
             textDecoration: "None",
             color:
               pathName === "/"
-                ? "rgba(255, 255, 255)"
-                : "rgba(255, 255, 255, 0.6)",
+                ? darkTheme.palette.text.primary
+                : darkTheme.palette.text.secondary,
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
+            <ListItemButton
+              sx={{ padding: "0.25rem 1.25rem", borderRadius: "1.25rem" }}
+            >
               <ListItemIcon
                 style={{
                   textDecoration: "None",
                   color:
                     pathName === "/"
-                      ? "rgba(255, 255, 255)"
-                      : "rgba(255, 255, 255, 0.6)",
+                      ? darkTheme.palette.text.primary
+                      : darkTheme.palette.text.secondary,
                 }}
               >
                 <HomeIcon fontSize="small" />
@@ -61,19 +66,21 @@ const NavLinks = () => {
             textDecoration: "None",
             color:
               pathName === "/about"
-                ? "rgba(255, 255, 255)"
-                : "rgba(255, 255, 255, 0.6)",
+                ? darkTheme.palette.text.primary
+                : darkTheme.palette.text.secondary,
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
+            <ListItemButton
+              sx={{ padding: "0.25rem 1.25rem", borderRadius: "1.25rem" }}
+            >
               <ListItemIcon
                 style={{
                   textDecoration: "None",
                   color:
                     pathName === "/about"
-                      ? "rgba(255, 255, 255)"
-                      : "rgba(255, 255, 255, 0.6)",
+                      ? darkTheme.palette.text.primary
+                      : darkTheme.palette.text.secondary,
                 }}
               >
                 <PersonIcon fontSize="small" />
@@ -89,19 +96,21 @@ const NavLinks = () => {
             textDecoration: "None",
             color:
               pathName === "/blogs"
-                ? "rgba(255, 255, 255)"
-                : "rgba(255, 255, 255, 0.6)",
+                ? darkTheme.palette.text.primary
+                : darkTheme.palette.text.secondary,
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
+            <ListItemButton
+              sx={{ padding: "0.25rem 1.25rem", borderRadius: "1.25rem" }}
+            >
               <ListItemIcon
                 style={{
                   textDecoration: "None",
                   color:
                     pathName === "/blogs"
-                      ? "rgba(255, 255, 255)"
-                      : "rgba(255, 255, 255, 0.6)",
+                      ? darkTheme.palette.text.primary
+                      : darkTheme.palette.text.secondary,
                 }}
               >
                 <BookIcon fontSize="small" />
@@ -117,19 +126,21 @@ const NavLinks = () => {
             textDecoration: "None",
             color:
               pathName === "/projects"
-                ? "rgba(255, 255, 255)"
-                : "rgba(255, 255, 255, 0.6)",
+                ? darkTheme.palette.text.primary
+                : darkTheme.palette.text.secondary,
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
+            <ListItemButton
+              sx={{ padding: "0.25rem 1.25rem", borderRadius: "1.25rem" }}
+            >
               <ListItemIcon
                 style={{
                   textDecoration: "None",
                   color:
                     pathName === "/projects"
-                      ? "rgba(255, 255, 255)"
-                      : "rgba(255, 255, 255, 0.6)",
+                      ? darkTheme.palette.text.primary
+                      : darkTheme.palette.text.secondary,
                 }}
               >
                 <BusinessCenterIcon fontSize="small" />
@@ -145,19 +156,21 @@ const NavLinks = () => {
             textDecoration: "None",
             color:
               pathName === "/resume"
-                ? "rgba(255, 255, 255)"
-                : "rgba(255, 255, 255, 0.6)",
+                ? darkTheme.palette.text.primary
+                : darkTheme.palette.text.secondary,
           }}
         >
           <div className={styles.navLinks}>
-            <ListItemButton sx={{ padding: "4px 20px", borderRadius: "20px" }}>
+            <ListItemButton
+              sx={{ padding: "0.25rem 1.25rem", borderRadius: "1.25rem" }}
+            >
               <ListItemIcon
                 style={{
                   textDecoration: "None",
                   color:
                     pathName === "/resume"
-                      ? "rgba(255, 255, 255)"
-                      : "rgba(255, 255, 255, 0.6)",
+                      ? darkTheme.palette.text.primary
+                      : darkTheme.palette.text.secondary,
                 }}
               >
                 <ArticleIcon fontSize="small" />
