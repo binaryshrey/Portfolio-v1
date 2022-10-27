@@ -24,18 +24,18 @@ const Contents = ({ content }) => {
 
   return (
     <div>
-      <a
-        href={content.link}
-        style={{ color: "rgba(255, 255, 255, 0.8)", textDecoration: "None" }}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Card
+        style={{
+          background: "#424242",
+          margin: isDesktop ? "48px 48px 24px" : "48px 12px 24px",
+          borderRadius: "12px",
+        }}
       >
-        <Card
-          style={{
-            background: "#424242",
-            margin: isDesktop ? "48px 48px 24px" : "48px 12px 24px",
-            borderRadius: "12px",
-          }}
+        <a
+          href={content.link}
+          style={{ color: "rgba(255, 255, 255, 0.8)", textDecoration: "None" }}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <CardActionArea>
             <CardMedia
@@ -106,8 +106,8 @@ const Contents = ({ content }) => {
               </div>
             </CardContent>
           </CardActionArea>
-        </Card>
-      </a>
+        </a>
+      </Card>
     </div>
   )
 }
