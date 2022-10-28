@@ -1,4 +1,5 @@
 import React from "react"
+import { SeoConfig } from "../components/seo"
 import Container from "../components/container"
 
 const Index = () => {
@@ -6,3 +7,7 @@ const Index = () => {
 }
 
 export default Index
+
+export const Head = () => (
+  <SeoConfig />
+)

@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { Typography } from "@mui/material"
 import Button from "@mui/material/Button"
 import { useMediaQuery } from "react-responsive"
+import { SeoConfig } from "../components/seo"
 import * as styles from "../styles/app.module.css"
 
 const NotFound = () => {
@@ -68,3 +69,7 @@ const NotFound = () => {
 }
 
 export default NotFound
+
+export const Head = () => (
+  <SeoConfig title="404"/>
+)
