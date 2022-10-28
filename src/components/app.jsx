@@ -6,6 +6,7 @@ import NavBar from "./navbar"
 import Contents from "./contents"
 import * as styles from "../styles/app.module.css"
 import AboutContent from "./aboutContent"
+import Footer from "./footer"
 
 const App = ({ filter }) => {
   const isDesktop = useMediaQuery({
@@ -56,13 +57,19 @@ const App = ({ filter }) => {
                   })}
               </div>
             )}
+            <Footer/>
           </main>
         </div>
       ) : (
         <>
           <NavBar />
           {filter === "About" ? (
-            <AboutContent />
+            <>
+              <AboutContent />
+              <Footer/>
+            </>
+            
+            
           ) : (
             <div>
               {contents &&
@@ -75,6 +82,7 @@ const App = ({ filter }) => {
                     ) : null
                   }
                 })}
+                <Footer/>
             </div>
           )}
         </>
