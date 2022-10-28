@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { Typography } from "@mui/material"
 import Button from "@mui/material/Button"
 import { useMediaQuery } from "react-responsive"
-import * as styles from "../../src/Styles.module.css"
+import * as styles from "../styles/app.module.css"
 
 const NotFound = () => {
   const isDesktop = useMediaQuery({

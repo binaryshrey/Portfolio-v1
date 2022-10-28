@@ -7,4 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: [],
+  siteMetadata: {
+    title: "Shreyansh Saurabh",
+    description: "Portfolio site - Shreyansh Saurabh",
+  },
 }

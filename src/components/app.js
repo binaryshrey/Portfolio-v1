@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive"
 import DB from "../utils/db.json"
 import NavBar from "../components/navbar"
 import Contents from "../components/contents"
-import * as styles from "../../src/Styles.module.css"
+import * as styles from "../styles/app.module.css"
 import AboutContent from "./aboutContent"
 
 const App = ({ filter }) => {

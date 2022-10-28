@@ -10,7 +10,7 @@ import CardMedia from "@mui/material/CardMedia"
 import { useMediaQuery } from "react-responsive"
 import Typography from "@mui/material/Typography"
 import CardContent from "@mui/material/CardContent"
-import * as styles from "../../src/Styles.module.css"
+import * as styles from "../styles/app.module.css"
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined"
 import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined"
 

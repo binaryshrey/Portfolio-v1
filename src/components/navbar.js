@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive"
 import NavLinks from "../components/navLinks"
 import SocialInfo from "../components/socialInfo"
 import ProfileInfo from "../components/profileInfo"
-import * as styles from "../../src/Styles.module.css"
+import * as styles from "../styles/app.module.css"
 import ProfileImage from "../components/profileImage"
 
 const NavBar = () => {

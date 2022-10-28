@@ -1,6 +1,6 @@
 import React from "react"
 import DB from "../utils/db.json"
-import * as styles from "../../src/Styles.module.css"
+import * as styles from "../styles/app.module.css"
 
 const ProfileImage = () => {
   return (
