@@ -1,11 +1,11 @@
 import React from "react"
 import Hamburger from "hamburger-react"
 import { useMediaQuery } from "react-responsive"
-import NavLinks from "../components/navLinks"
-import SocialInfo from "../components/socialInfo"
-import ProfileInfo from "../components/profileInfo"
+import NavLinks from "./navLinks"
+import SocialInfo from "./socialInfo"
+import ProfileInfo from "./profileInfo"
 import * as styles from "../styles/app.module.css"
-import ProfileImage from "../components/profileImage"
+import ProfileImage from "./profileImage"
 
 const NavBar = () => {
   const [showLinks, setShowLinks] = React.useState(false)
