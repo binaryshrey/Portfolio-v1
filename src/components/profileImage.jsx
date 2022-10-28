@@ -1,12 +1,22 @@
 import React from "react"
-import DB from "../utils/db.json"
+import { graphql, useStaticQuery } from "gatsby"
 import * as styles from "../styles/app.module.css"
 
 const ProfileImage = () => {
+
+  const data = useStaticQuery(graphql`query ProfileImage {
+  file {
+    childDataJson {
+      profileImage
+    }
+  }}`)
+
+  const {profileImage} = data.file.childDataJson
+  
   return (
     <>
       <img
-        src={DB.profileImage}
+        src={profileImage}
         alt="profile-pic"
         width="120"
         height="120"

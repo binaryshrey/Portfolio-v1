@@ -1,8 +1,8 @@
 import * as React from "react"
-import DB from "../utils/db.json"
 import Card from "@mui/material/Card"
 import darkTheme from "../utils/appTheme"
 import { useMediaQuery } from "react-responsive"
+import { graphql, useStaticQuery } from "gatsby"
 import Typography from "@mui/material/Typography"
 import CardContent from "@mui/material/CardContent"
 
@@ -10,6 +10,15 @@ const AboutContent = () => {
   const isDesktop = useMediaQuery({
     query: "(min-width: 768px)",
   })
+
+  const data = useStaticQuery(graphql`query Description {
+  file {
+    childDataJson {
+      description
+    }
+  }}`)
+
+  const {description} = data.file.childDataJson
 
   return (
     <Card
@@ -21,7 +30,7 @@ const AboutContent = () => {
     >
       <CardContent>
         <Typography variant="body2" style={{ whiteSpace: "pre-line" }}>
-          {DB?.about}
+          {description}
         </Typography>
       </CardContent>
     </Card>

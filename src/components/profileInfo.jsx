@@ -1,9 +1,20 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import Typography from "@mui/material/Typography"
-import DB from "../utils/db.json"
 import darkTheme from "../utils/appTheme"
 
 const ProfileInfo = () => {
+
+  const data = useStaticQuery(graphql`query ProfileInfo {
+  file {
+    childDataJson {
+      name
+      about
+    }
+  }}`)
+
+  const {name,about} = data.file.childDataJson
+
   return (
     <>
       <Typography
@@ -12,7 +23,7 @@ const ProfileInfo = () => {
         sx={{ margin: "1rem 0rem 0.25rem" }}
         fontWeight="600"
       >
-        {DB.name}
+        {name}
       </Typography>
 
       <Typography
@@ -21,7 +32,7 @@ const ProfileInfo = () => {
         sx={{ margin: "0rem 0rem 0.25rem" }}
         color={darkTheme.palette.text.secondary}
       >
-        {DB.profileHeader}
+        {about}
       </Typography>
     </>
   )

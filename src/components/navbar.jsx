@@ -40,7 +40,7 @@ const NavBar = () => {
         <div
           style={{
             opacity: opacity,
-            transition: "all 1s ease-in",
+            transition: "all 0.5s ease-in",
           }}
         >
           {showLinks && <NavLinks />}
