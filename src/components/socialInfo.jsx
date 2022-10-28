@@ -17,9 +17,7 @@ const SocialInfo = () => {
         Twitter
       }
     }
-  }
-}
-`)
+  }}`)
 
   const {LinkedIn,Github, Twitter} = data.file.childDataJson.socials
 
