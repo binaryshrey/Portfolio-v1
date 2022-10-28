@@ -56,7 +56,7 @@
         },
         {
             "name":"Memory Game",
-            "description" : "An intuitive game to match the set of 8 cards as fast as you can.",
+            "description" : "An intuitive game that tests your ability to match the set of 8 cards as fast as possible.",
             "link" : "https://github.com/binaryshrey/Memory-Game",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Memory-Game/master/Overview.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Memory-Game/master/Overview.webp",

@@ -1,19 +1,19 @@
 import React from "react"
+import Hamburger from "hamburger-react"
 import { useMediaQuery } from "react-responsive"
-import IconButton from "@mui/material/IconButton"
-import CloseIcon from "@mui/icons-material/Close"
 import NavLinks from "../components/navLinks"
 import SocialInfo from "../components/socialInfo"
 import ProfileInfo from "../components/profileInfo"
 import * as styles from "../../src/Styles.module.css"
 import ProfileImage from "../components/profileImage"
-import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined"
 
 const NavBar = () => {
   const [showLinks, setShowLinks] = React.useState(false)
+  const [opacity, setOpacity] = React.useState(0)
 
   const toggleShowLinks = () => {
     setShowLinks(!showLinks)
+    opacity === 0 ? setOpacity(1) : setOpacity(0)
   }
 
   const isDesktop = useMediaQuery({
@@ -27,20 +27,25 @@ const NavBar = () => {
           <ProfileImage />
           {!isDesktop && (
             <div>
-              <IconButton onClick={toggleShowLinks}>
-                {showLinks ? (
-                  <CloseIcon fontSize="large" />
-                ) : (
-                  <MenuOutlinedIcon fontSize="large" />
-                )}
-              </IconButton>
+              <Hamburger toggled={showLinks} toggle={toggleShowLinks} />
             </div>
           )}
         </div>
         <ProfileInfo />
         <SocialInfo />
       </div>
-      {isDesktop ? <NavLinks /> : showLinks && <NavLinks />}
+      {isDesktop ? (
+        <NavLinks />
+      ) : (
+        <div
+          style={{
+            opacity: opacity,
+            transition: "all 1s ease-in",
+          }}
+        >
+          {showLinks && <NavLinks />}
+        </div>
+      )}
     </>
   )
 }
