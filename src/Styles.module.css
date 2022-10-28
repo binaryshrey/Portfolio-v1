@@ -68,3 +68,19 @@
     display: flex;
     margin-top : 2rem
 }
+
+.notFoundContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-basis: 1;
+}
+
+.button404Container{
+   display: flex;
+   justify-content: center;
+}
+
