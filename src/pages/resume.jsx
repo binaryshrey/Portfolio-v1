@@ -9,7 +9,6 @@ import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 const Resume = () => {
 
   const [resumePDF] = useState(PDF)
-
   const defaultLayoutPluginInstance = defaultLayoutPlugin()
 
   return (<>
