@@ -17,7 +17,7 @@ const NavLinks = () => {
   let pathName = window.location.pathname
 
   const isDesktop = useMediaQuery({
-    query: "(min-width: 768px)",
+    query: "(min-width: 769px)",
   })
 
   const containerStyle = {

@@ -17,7 +17,11 @@ const NavBar = () => {
   }
 
   const isDesktop = useMediaQuery({
-    query: "(min-width: 768px)",
+    query: "(min-width: 769px)",
+  })
+
+  const isMobile = useMediaQuery({
+    query: "(max-width: 768px)",
   })
 
   return (
@@ -25,18 +29,16 @@ const NavBar = () => {
       <div className={styles.navbarUpperContainer}>
         <div className={styles.profileContainer}>
           <ProfileImage />
-          {!isDesktop && (
-            <div>
-              <Hamburger toggled={showLinks} toggle={toggleShowLinks} />
-            </div>
+          {isMobile && (
+            <Hamburger toggled={showLinks} toggle={toggleShowLinks} />
           )}
         </div>
         <ProfileInfo />
         <SocialInfo />
       </div>
-      {isDesktop ? (
-        <NavLinks />
-      ) : (
+
+      {isDesktop && <NavLinks />}
+      {isMobile && (
         <div
           style={{
             opacity: opacity,

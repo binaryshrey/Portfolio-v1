@@ -8,7 +8,7 @@ import * as styles from "../styles/app.module.css"
 
 const NotFound = () => {
   const isDesktop = useMediaQuery({
-    query: "(min-width: 600px)",
+    query: "(min-width: 769px)",
   })
 
   return (
@@ -70,6 +70,4 @@ const NotFound = () => {
 
 export default NotFound
 
-export const Head = () => (
-  <SeoConfig title="404"/>
-)
+export const Head = () => <SeoConfig title="404" />

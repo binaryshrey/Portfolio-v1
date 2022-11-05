@@ -8,17 +8,20 @@ import CardContent from "@mui/material/CardContent"
 
 const AboutContent = () => {
   const isDesktop = useMediaQuery({
-    query: "(min-width: 768px)",
+    query: "(min-width: 769px)",
   })
 
-  const data = useStaticQuery(graphql`query Description {
-  file {
-    childDataJson {
-      description
+  const data = useStaticQuery(graphql`
+    query Description {
+      file {
+        childDataJson {
+          description
+        }
+      }
     }
-  }}`)
+  `)
 
-  const {description} = data.file.childDataJson
+  const { description } = data.file.childDataJson
 
   return (
     <Card

@@ -16,11 +16,11 @@ import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined"
 
 const Contents = ({ content }) => {
   const isDesktop = useMediaQuery({
-    query: "(min-width: 768px)",
+    query: "(min-width: 769px)",
   })
 
   const isMobile = useMediaQuery({
-    query: "(max-width: 600px)",
+    query: "(max-width: 768px)",
   })
 
   return (
