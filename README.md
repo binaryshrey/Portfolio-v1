@@ -21,7 +21,7 @@ Development server runs at `http://localhost:8000`.
 gatsby build
 gatsby serve
 ```
-Production server runs at `http://localhost:8000`.
+Production server runs at `http://localhost:9000`.
 Build is generated at `public` (which is deployable).
 
 
