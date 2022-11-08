@@ -15,7 +15,7 @@ gatsby develop
 
 Development server runs at `http://localhost:8000`.
 
-### Build setup
+### Prod setup
 
 ```
 gatsby build
