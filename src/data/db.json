@@ -2,12 +2,16 @@
     "name": "Shreyansh Saurabh",
 	"profileImage": "https://avatars.githubusercontent.com/u/35399542?v=4",
     "about":  "Fullstack Android Developer",
+    "resume": "https://docs.google.com/document/d/1uSPGzj1TJqylTwyzlViAIIZ4WpgJAXvk/edit?usp=sharing&ouid=116878050398245712019&rtpof=true&sd=true",
     "socials" : {
         "LinkedIn" : "https://in.linkedin.com/in/shreyanshsaurabh",
         "Github" : "https://github.com/binaryshrey",
         "Twitter" : "https://twitter.com/binaryShrey"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae iaculis dolor, rhoncus suscipit est. Cras tempor blandit euismod. Quisque ut porttitor elit. Nulla nec lacinia dolor, non tincidunt quam. Duis elementum rhoncus est, ac molestie nunc dictum vitae. Suspendisse lorem nibh, aliquam at odio id, porttitor blandit est. Ut mattis consectetur luctus. \n \n Cras hendrerit, ante in rhoncus dictum, dui mi iaculis purus, ac vestibulum nisi risus non urna. Nulla facilisi. Phasellus auctor, ligula vitae eleifend efficitur, metus nisi elementum ex, eu placerat massa ligula ac turpis. Vestibulum nec felis in tellus vehicula tincidunt at non nisl. Sed molestie eget nisl sit amet vestibulum. Vivamus non purus neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus ut dictum lorem. Phasellus non aliquam urna. Ut at nisl vehicula, ornare justo a, commodo turpis. Aliquam erat volutpat. Vestibulum ut leo id metus fermentum cursus. \n Nunc facilisis mi eget interdum ullamcorper. Duis libero libero, sodales sit amet volutpat vel, auctor ac enim. Sed sit amet faucibus ex. Phasellus quis eros lectus. Sed vehicula, est id tempus luctus, felis libero vestibulum ipsum, et interdum lacus elit vitae eros. Nunc gravida enim eget ultrices bibendum. Aliquam lacinia pretium leo, non pretium ex aliquam at. Vivamus non nibh turpis. Morbi nec aliquam ligula. Aliquam et dui sed arcu laoreet auctor at eget nibh. Suspendisse varius lorem vehicula sapien lacinia, in bibendum turpis iaculis. Vivamus enim ante, ornare at erat vel, lacinia molestie ex. \n \n Vestibulum lacinia ultrices maximus. Nunc eleifend augue mollis tellus volutpat consequat. Morbi vitae lobortis nisl. Pellentesque consequat augue arcu, a efficitur velit condimentum non. Integer placerat luctus dolor, sit amet sodales est tempus quis. Duis diam diam, feugiat at pellentesque sed, porttitor quis nisl. Sed tempus euismod justo, a dictum ligula efficitur sed. Nulla sapien risus, laoreet eu lectus vel, condimentum aliquam massa. Sed bibendum cursus orci at aliquam. Integer in blandit augue, a pulvinar ipsum. Donec convallis malesuada diam id congue. Fusce mollis tristique ultricies. Proin fringilla eleifend erat, id consequat augue. Nullam eget lacus vestibulum urna rutrum hendrerit ut vel turpis. Donec a lorem mattis, vulputate turpis vitae, gravida orci. \n Fusce a leo ut ante gravida ultrices vitae nec neque. Duis elementum pretium arcu. Praesent quam est, venenatis eget finibus ac, volutpat in tellus. Proin euismod odio et ullamcorper blandit. Donec at erat et turpis finibus dapibus. Donec viverra lacus ac porttitor pulvinar. Cras suscipit accumsan ex quis dapibus. Suspendisse velit diam, consectetur ut urna ac, interdum volutpat velit. Pellentesque at dolor eget eros ultricies vulputate convallis sed elit. Aliquam congue elit id enim consectetur luctus nec sollicitudin magna. Proin tincidunt luctus nunc, vitae suscipit orci gravida ac. Ut iaculis eget est ac efficitur. Nam porta leo eget hendrerit lobortis. Quisque mattis aliquam nunc, quis rhoncus augue. Morbi tincidunt turpis dui, a ullamcorper sem sodales sed.",
+    "description1": "Self-driven and certified android developer with 2+ years of experience, specializing in the development of intricate mobile and web applications. Proficient in leveraging Kotlin language with agile methodology to create sophisticated and innovative solutions, bounded by an unwavering passion to learn new technologies",
+    "description2": "Throughout my journey as an Android developer, my unwavering passion for learning and staying abreast of emerging technologies serves as the foundation of my success. I remain committed to honing my skills and embracing new innovations, enabling me to push the boundaries of what's possible in mobile development.",
+    "description3": "My expertise extends beyond Kotlin to encompass a diverse array of cutting-edge technologies. Among these are React, FastAPI and SQLite stand prominent, as they serve as indispensable tools in crafting seamless and feature-rich mobile and web applications.",
+    "description4": "Moreover, my self-driven nature pushes me to tackle intricate challenges with tenacity, consistently delivering solutions that exceed expectations. By adhering to agile practices, I adeptly navigate the development process, ensuring a seamless and collaborative workflow, while continuously refining my craft to deliver top-notch applications that leave a lasting impact on users.",
 
     "contents" : [
         {
@@ -16,10 +20,35 @@
             "link" : "https://avatars-ai.chat/",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/avatars-ai.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/avatars-ai.webp",
-            "tags" : ["Android","Kotlin","ProductHunt","Play Store","Project"],
+            "tags" : [{
+                    "name": "Android",
+                    "uri" : "https://developer.android.com/"
+                },
+                {
+                    "name": "Kotlin",
+                    "uri" : "https://kotlinlang.org/"
+                },
+                {
+                    "name": "ProductHunt",
+                    "uri" : "https://www.producthunt.com/products/avatars-ai#avatars-ai"
+                },
+                {
+                    "name": "Play Store",
+                    "uri" : "https://play.google.com/store/apps/details?id=chat.avatars.ai"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Avatars-AI"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://avatars-ai.chat/"
+                }],
+            "type" : "Project",
             "publishedOn" : "May - 2023",
             "readTime" : null,
-            "stars" : "1+"
+            "stars" : null,
+            "downloads": "2000+"
         },
 
         {
@@ -28,22 +57,60 @@
             "link" : "https://pokedex-zenstudio.netlify.app/",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/pokedex.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/pokedex.webp",
-            "tags" : ["Android","Kotlin","Play Store","Project"],
+            "tags" : [{
+                    "name": "Android",
+                    "uri" : "https://developer.android.com/"
+                },
+                {
+                    "name": "Kotlin",
+                    "uri" : "https://kotlinlang.org/"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Pokedex"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://pokedex-zenstudio.netlify.app/"
+                }],
+            "type" : "Project",
             "publishedOn" : "July - 2023",
             "readTime" : null,
-            "stars" : "1+"
+            "stars" : "1+",
+            "downloads": null
         },
-
         {
             "name":"NotesBay",
             "description" : "Notes • Todos • AI Writing Assistant - Powered By ChatGPT & GPT4 AI",
             "link" : "https://notesbay.app/",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/notesbay.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/notesbay.webp",
-            "tags" : ["Android","Kotlin","Play Store","Project"],
-            "publishedOn" : "Apr - 2022",
+            "tags" : [{
+                    "name": "Android",
+                    "uri" : "https://developer.android.com/"
+                },
+                {
+                    "name": "Kotlin",
+                    "uri" : "https://kotlinlang.org/"
+                },
+                {
+                    "name": "Play Store",
+                    "uri" : "https://play.google.com/store/apps/details?id=dev.shreyansh.notesBay"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/NotesBay"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://notesbay.app/"
+                }],
+            "type" : "Project",
+            "publishedOn" : "Apr - 2023",
             "readTime" : null,
-            "stars" : "1+"
+            "stars" : null,
+            "downloads": "100+"
+
         },
 
         {
@@ -52,10 +119,27 @@
             "link" : "https://weatherman-zenstudio.netlify.app/",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/weatherman.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/weatherman.webp",
-            "tags" : ["Android","Kotlin","Open-Source","Project"],
-            "publishedOn" : "June - 2022",
+            "tags" : [{
+                    "name": "Android",
+                    "uri" : "https://developer.android.com/"
+                },
+                {
+                    "name": "Kotlin",
+                    "uri" : "https://kotlinlang.org/"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/WeatherMan"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://weatherman-zenstudio.netlify.app/"
+                }],
+            "type" : "Project",
+            "publishedOn" : "June - 2023",
             "readTime" : null,
-            "stars" : "1+"
+            "stars" : "1+",
+            "downloads": null
         },
 
 
@@ -64,11 +148,20 @@
             "description" : "How to get started with React – A Beginner's Guide",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/react_blog.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/react_blog.webp",
-            "tags" : ["React","Medium","Blog"],
+            "tags" : [{
+                    "name": "React",
+                    "uri" : "https://react.dev/"
+                },
+                {
+                    "name": "Medium",
+                    "uri" : "https://medium.com/@binaryshrey/react-101-f4ec2fe0769d"
+                }],
+            "type" : "Blog",
             "link" : "https://medium.com/@binaryshrey/react-101-f4ec2fe0769d",
             "publishedOn" : "Aug - 2022",
             "readTime" : "8",
-            "stars" : null
+            "stars" : null,
+            "downloads": null
         },
         {
             "name":"Dice",
@@ -76,10 +169,23 @@
             "link" : "https://github.com/binaryshrey/Dice",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice_mobile.webp",
-            "tags" : ["Android","Kotlin","Open-Source","Project"],
+            "tags" : [{
+                    "name": "Android",
+                    "uri" : "https://developer.android.com/"
+                },
+                {
+                    "name": "Kotlin",
+                    "uri" : "https://kotlinlang.org/"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Dice"
+                }],
+            "type" : "Project",
             "publishedOn" : "Jan - 2022",
             "readTime" : null,
-            "stars" : "30+"
+            "stars" : "30+",
+            "downloads": null
         },
         {
             "name":"Awesome Android Open-Source Projects",
@@ -87,10 +193,19 @@
             "link" : "https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/aaosp.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/aaosp.webp",
-            "tags" : ["Android","Open-Source","Project"],
+            "tags" : [{
+                    "name": "Android",
+                    "uri" : "https://developer.android.com/"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects"
+                }],
+            "type" : "Project",
             "publishedOn" : "Jan - 2021",
             "readTime" : null,
-            "stars" : "600+"
+            "stars" : "600+",
+            "downloads": null
         },
         {
             "name":"DeepFlick",
@@ -98,10 +213,23 @@
             "link" : "https://github.com/binaryshrey/Deepflick",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview_Mobile.webp",
-            "tags" : ["Android","Java","Open-Source","Project"],
+            "tags" : [{
+                    "name": "Android",
+                    "uri" : "https://developer.android.com/"
+                },
+                {
+                    "name": "Java",
+                    "uri" : "https://www.java.com/en/"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Deepflick"
+                }],
+            "type" : "Project",
             "publishedOn" : "Mar - 2022",
             "readTime" : null,
-            "stars" : "6+"
+            "stars" : "6+",
+            "downloads": null
         },
         {
             "name":"Memory Game",
@@ -109,10 +237,23 @@
             "link" : "https://github.com/binaryshrey/Memory-Game",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/memory_game.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/memory_game.webp",
-            "tags" : ["JavaScript","Open-Source","Project"],
+            "tags" : [{
+                    "name": "JavaScript",
+                    "uri" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                },
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Memory-Game"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://binaryshrey.github.io/Memory-Game/"
+                }],
+            "type" : "Project",
             "publishedOn" : "Oct - 2018",
             "readTime" : null,
-            "stars" : "1+"
+            "stars" : "1+",
+            "downloads": null
         }
     ]
 

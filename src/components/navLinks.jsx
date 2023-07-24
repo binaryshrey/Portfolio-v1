@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import db from "../data/db.json";
 import List from "@mui/material/List"
 import darkTheme from "../utils/appTheme"
 import BookIcon from "@mui/icons-material/Book"
@@ -150,16 +151,7 @@ const NavLinks = () => {
           </div>
         </Link>
 
-        <Link
-          to="/resume"
-          style={{
-            textDecoration: "None",
-            color:
-              pathName === "/resume"
-                ? darkTheme.palette.text.primary
-                : darkTheme.palette.text.secondary,
-          }}
-        >
+        <a href={db.resume} style={{ color: darkTheme.palette.text.secondary, textDecoration: "None", }} target="_blank" rel="noopener noreferrer">
           <div className={styles.navLinks}>
             <ListItemButton
               sx={{ padding: "0.25rem 1.25rem", borderRadius: "1.25rem" }}
@@ -178,7 +170,7 @@ const NavLinks = () => {
               <ListItemText primary="Resume" />
             </ListItemButton>
           </div>
-        </Link>
+        </a>
       </List>
     </div>
   )

@@ -25,7 +25,7 @@ const DesktopLayout = ({ filter }) => {
                 if (filter === "Home") {
                   return <Contents key={uuidv4()} content={item} />
                 } else {
-                  return item.tags.includes(filter) ? (
+                  return item.type.includes(filter) ? (
                     <Contents key={uuidv4()} content={item} />
                   ) : null
                 }

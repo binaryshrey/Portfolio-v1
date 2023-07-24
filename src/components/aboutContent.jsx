@@ -20,8 +20,20 @@ const AboutContent = () => {
       }}
     >
       <CardContent>
-        <Typography variant="body2" style={{ whiteSpace: "pre-line" }}>
-          {db.description}
+        <Typography variant="body1" style={{ whiteSpace: "pre-line" }}>
+          {db.description1}
+        </Typography>
+
+        <Typography variant="body1" style={{ whiteSpace: "pre-line", marginTop:'2rem'}}>
+          {db.description2}
+        </Typography>
+
+        <Typography variant="body1" style={{ whiteSpace: "pre-line", marginTop:'2rem'}}>
+          {db.description3}
+        </Typography>
+
+        <Typography variant="body1" style={{ whiteSpace: "pre-line", marginTop:'2rem'}}>
+          {db.description4}
         </Typography>
       </CardContent>
     </Card>
