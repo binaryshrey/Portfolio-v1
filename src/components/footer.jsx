@@ -21,7 +21,7 @@ const Footer = () => {
         }}
       />
       <Typography variant="body2" gutterBottom fontWeight="500">
-        © 2022 - Shreyansh Saurabh
+        © 2023 - Shreyansh Saurabh
       </Typography>
       <Typography variant="caption" color={darkTheme.palette.text.secondary}>
         Built with

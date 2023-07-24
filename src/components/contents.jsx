@@ -1,5 +1,5 @@
 import React from "react"
-import uuid from "react-uuid"
+import { v4 as uuidv4 } from 'uuid'
 import Card from "@mui/material/Card"
 import Chip from "@mui/material/Chip"
 import Stack from "@mui/material/Stack"
@@ -55,7 +55,7 @@ const Contents = ({ content }) => {
                   {content?.tags?.map(tag => {
                     return (
                       <Chip
-                        key={uuid()}
+                        key={uuidv4()}
                         label={tag}
                         size="small"
                         color="success"
