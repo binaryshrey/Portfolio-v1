@@ -44,7 +44,7 @@ const Contents = ({ content }) => {
           <CardActionArea>
             <CardMedia
               component="img"
-              height="280rem"
+              height="320rem"
               image={isMobile ? content.imageURIMobile : content.imageURI}
               alt="default img"
               style={{ objectPosition: "top" }}
@@ -58,7 +58,7 @@ const Contents = ({ content }) => {
                         key={uuidv4()}
                         label={tag}
                         size="small"
-                        color="success"
+                        style={{backgroundColor:'#2AA837'}}
                       />
                     )
                   })}

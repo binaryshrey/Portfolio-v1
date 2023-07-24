@@ -11,13 +11,62 @@
 
     "contents" : [
         {
+            "name":"Avatars AI",
+            "description" : "Your Ultimate Personalised AI Companion App - Powered By ChatGPT & GPT-4 AI",
+            "link" : "https://avatars-ai.chat/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice_mobile.webp",
+            "tags" : ["Android","Kotlin","ProductHunt","Play Store","Project"],
+            "publishedOn" : "May - 2023",
+            "readTime" : null,
+            "stars" : "1+"
+        },
+
+        {
+            "name":"Pokédex",
+            "description" : "Introducing Pokédex : Explore 800+ pokemon(s) across all 8 generations and elevate your Pokemon Trainer Level with Poké-Quiz and Poké-Scan features",
+            "link" : "https://pokedex-zenstudio.netlify.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice_mobile.webp",
+            "tags" : ["Android","Kotlin","Play Store","Project"],
+            "publishedOn" : "July - 2023",
+            "readTime" : null,
+            "stars" : "1+"
+        },
+
+        {
+            "name":"NotesBay",
+            "description" : "Notes • Todos • AI Writing Assistant - Powered By ChatGPT & GPT4 AI",
+            "link" : "https://notesbay.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice_mobile.webp",
+            "tags" : ["Android","Kotlin","Play Store","Project"],
+            "publishedOn" : "Apr - 2022",
+            "readTime" : null,
+            "stars" : "1+"
+        },
+
+        {
+            "name":"WeatherMan",
+            "description" : "Stay ahead of the storm with our minimalist weather tracker app and get notified for weather alerts!",
+            "link" : "https://weatherman-zenstudio.netlify.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice_mobile.webp",
+            "tags" : ["Android","Kotlin","Open-Source","Project"],
+            "publishedOn" : "June - 2022",
+            "readTime" : null,
+            "stars" : "1+"
+        },
+
+
+        {
             "name":"REACT-101",
             "description" : "How to get started with React – A Beginner's Guide",
             "imageURI" : "https://miro.medium.com/max/4800/1*LTbllWagpO39LD2iPUddUw.png",
             "imageURIMobile":"https://miro.medium.com/max/4800/1*LTbllWagpO39LD2iPUddUw.png",
-            "tags" : ["React","Blog"],
+            "tags" : ["React","Medium","Blog"],
             "link" : "https://medium.com/@binaryshrey/react-101-f4ec2fe0769d",
-            "publishedOn" : "Aug 02, 2022",
+            "publishedOn" : "Aug - 2022",
             "readTime" : "8",
             "stars" : null
         },
@@ -25,12 +74,12 @@
             "name":"Dice",
             "description" : "A simple and intuitive dice-roller app",
             "link" : "https://github.com/binaryshrey/Dice",
-            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner.webp",
-            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_mobile.webp",
-            "tags" : ["Android","Project"],
-            "publishedOn" : "Jan 16, 2022",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Dice/main/banner_dice_mobile.webp",
+            "tags" : ["Android","Kotlin","Open-Source","Project"],
+            "publishedOn" : "Jan - 2022",
             "readTime" : null,
-            "stars" : 3
+            "stars" : "30+"
         },
         {
             "name":"Awesome Android Open-Source Projects",
@@ -38,10 +87,10 @@
             "link" : "https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Awesome-Android-Open-Source-Projects/master/assets/AAOSP.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Awesome-Android-Open-Source-Projects/master/assets/AAOSP.webp",
-            "tags" : ["Android","Project"],
-            "publishedOn" : "Jan 16, 2021",
+            "tags" : ["Android","Open-Source","Project"],
+            "publishedOn" : "Jan - 2021",
             "readTime" : null,
-            "stars" : 366
+            "stars" : "600+"
         },
         {
             "name":"DeepFlick",
@@ -49,10 +98,10 @@
             "link" : "https://github.com/binaryshrey/Deepflick",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Deepflick/master/Overview_Mobile.webp",
-            "tags" : ["Android","Project"],
-            "publishedOn" : "Mar 06, 2022",
+            "tags" : ["Android","Java","Open-Source","Project"],
+            "publishedOn" : "Mar - 2022",
             "readTime" : null,
-            "stars" : 3
+            "stars" : "6+"
         },
         {
             "name":"Memory Game",
@@ -60,10 +109,10 @@
             "link" : "https://github.com/binaryshrey/Memory-Game",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Memory-Game/master/Overview.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Memory-Game/master/Overview.webp",
-            "tags" : ["JavaScript","Project"],
-            "publishedOn" : "Oct 10, 2018",
+            "tags" : ["JavaScript","Open-Source","Project"],
+            "publishedOn" : "Oct - 2018",
             "readTime" : null,
-            "stars" : 1
+            "stars" : "1+"
         }
     ]
 

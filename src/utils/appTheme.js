@@ -4,16 +4,8 @@ const darkTheme = createTheme({
   palette: {
     mode: "dark",
     background: {
-      default: "#303030",
+      default: "#202020",
     },
-
-    // mode: "light",
-    // background: {
-    //   default: "#FFF",
-    // },
-    // action: {
-    //   disabledBackground: "rgba(0, 0, 0, 0.08)",
-    //},
   },
 })
 
