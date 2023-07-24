@@ -26,7 +26,7 @@ const Contents = ({ content }) => {
     <div>
       <Card style={{ background: darkTheme.palette.action.hover, margin: isDesktop ? "3rem 3rem 1.5rem" : "3rem 0.75rem 1.5rem", borderRadius: "0.75rem", }} >
             <a href={content.link} style={{ color: darkTheme.palette.text.secondary, textDecoration: "None", }} target="_blank" rel="noopener noreferrer">
-              <CardMedia component="img" height="320rem" image={isMobile ? content.imageURIMobile : content.imageURI} alt="default img" style={{ objectPosition: "top" }} />
+              <CardMedia component="img" height="330rem" image={isMobile ? content.imageURIMobile : content.imageURI} alt="default img" style={{ objectPosition: "top" }} />
             </a>
             <CardContent style={{ padding: "1.5rem" }}>
               <div>
@@ -35,7 +35,7 @@ const Contents = ({ content }) => {
                     return (
                       <div key={uuidv4()} style={{marginRight:'0.4rem', marginTop:'0.2rem', marginBottom:'0.2rem'}}>
                         <a href={tag.uri} style={{ color: darkTheme.palette.text.secondary, textDecoration: "None", }} target="_blank" rel="noopener noreferrer">
-                          <Chip  label={ tag.name } size="small" style={{backgroundColor:'#202020', padding:"0.4rem"}} />
+                          <Chip  label={ tag.name } size="small" style={{backgroundColor:'#202020', padding:"0.8rem"}} />
                         </a>
                       </div>
                     )

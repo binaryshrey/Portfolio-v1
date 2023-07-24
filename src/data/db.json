@@ -52,11 +52,11 @@
         },
 
         {
-            "name":"Pokédex",
-            "description" : "Introducing Pokédex : Explore 800+ pokemon(s) across all 8 generations and elevate your Pokemon Trainer Level with Poké-Quiz and Poké-Scan features",
-            "link" : "https://pokedex-zenstudio.netlify.app/",
-            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/pokedex.webp",
-            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/pokedex.webp",
+            "name":"WeatherMan",
+            "description" : "Stay ahead of the storm with our minimalist weather tracker app and get notified for weather alerts!",
+            "link" : "https://weatherman-zenstudio.netlify.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/weatherman.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/weatherman.webp",
             "tags" : [{
                     "name": "Android",
                     "uri" : "https://developer.android.com/"
@@ -67,14 +67,14 @@
                 },
                 {
                     "name": "GitHub",
-                    "uri" : "https://github.com/binaryshrey/Pokedex"
+                    "uri" : "https://github.com/binaryshrey/WeatherMan"
                 },
                 {
                     "name": "Web",
-                    "uri" : "https://pokedex-zenstudio.netlify.app/"
+                    "uri" : "https://weatherman-zenstudio.netlify.app/"
                 }],
             "type" : "Project",
-            "publishedOn" : "July - 2023",
+            "publishedOn" : "June - 2023",
             "readTime" : null,
             "stars" : "1+",
             "downloads": null
@@ -114,11 +114,11 @@
         },
 
         {
-            "name":"WeatherMan",
-            "description" : "Stay ahead of the storm with our minimalist weather tracker app and get notified for weather alerts!",
-            "link" : "https://weatherman-zenstudio.netlify.app/",
-            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/weatherman.webp",
-            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/weatherman.webp",
+            "name":"Pokédex",
+            "description" : "Introducing Pokédex : Explore 800+ pokemon(s) across all 8 generations and elevate your Pokemon Trainer Level with Poké-Quiz and Poké-Scan features",
+            "link" : "https://pokedex-zenstudio.netlify.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/pokedex.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/pokedex.webp",
             "tags" : [{
                     "name": "Android",
                     "uri" : "https://developer.android.com/"
@@ -129,14 +129,14 @@
                 },
                 {
                     "name": "GitHub",
-                    "uri" : "https://github.com/binaryshrey/WeatherMan"
+                    "uri" : "https://github.com/binaryshrey/Pokedex"
                 },
                 {
                     "name": "Web",
-                    "uri" : "https://weatherman-zenstudio.netlify.app/"
+                    "uri" : "https://pokedex-zenstudio.netlify.app/"
                 }],
             "type" : "Project",
-            "publishedOn" : "June - 2023",
+            "publishedOn" : "July - 2023",
             "readTime" : null,
             "stars" : "1+",
             "downloads": null
