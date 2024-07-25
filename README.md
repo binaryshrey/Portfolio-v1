@@ -1,6 +1,6 @@
 # Portfolio
 
-A minimalistic portfolio site built with Gatsby - [View](https://binaryshrey.netlify.app/)
+A minimalistic portfolio site built with Gatsby - [View](https://shreyanshsaurabh.netlify.app/)
 
 ![Banner](https://raw.githubusercontent.com/binaryshrey/Portfolio/main/static/Banner.webp)
 
