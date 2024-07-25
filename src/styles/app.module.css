@@ -64,6 +64,10 @@
     display: flex
 }
 
+.descriptionContainer{
+    margin-bottom: 1rem
+}
+
 .cardTime{
     display: flex;
     margin-top : 2rem

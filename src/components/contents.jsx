@@ -35,48 +35,65 @@ const Contents = ({ content }) => {
                     return (
                       <div key={uuidv4()} style={{marginRight:'0.4rem', marginTop:'0.2rem', marginBottom:'0.2rem'}}>
                         <a href={tag.uri} style={{ color: darkTheme.palette.text.secondary, textDecoration: "None", }} target="_blank" rel="noopener noreferrer">
-                          <Chip  label={ tag.name } size="small" style={{backgroundColor:'#202020', padding:"0.8rem"}} />
+                          <Chip  label={ tag.name } size="small" style={{backgroundColor:'#0e0e0e', padding:"0.8rem", cursor:'pointer'}}  />
                         </a>
                       </div>
                     )
                   })}
                 </div>
-                <Typography variant="h6"component="div"color="text.primary" style={{marginBottom : "0.5rem"}}>
-                  {content.name}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {content.description}
-                </Typography>
-
-                <div className={styles.displayFlex}>
-                  <div className={styles.cardTime}>
-                    <CalendarMonthOutlinedIcon fontSize="small" />
-                    <Typography variant="body2" color="text.secondary" style={{ marginLeft: "12px" }}>
-                      {content.publishedOn}
+                {
+                  content.name ? 
+                  <Typography variant="h6"component="div"color="text.primary" style={{marginBottom : "0.5rem"}}>
+                    {content.name}
+                  </Typography> : <></>
+                }
+                {
+                  content.description ? 
+                  <div className={styles.descriptionContainer}>
+                    <Typography variant="body2" color="text.secondary">
+                      {content.description}
                     </Typography>
-                  </div>
+                  </div> : <></>
+                }
 
-                  <div className={styles.cardClock}>
-                    {content.readTime ? <AccessTimeOutlinedIcon fontSize="small" /> : content.stars ? <StarIcon fontSize="small" /> : <DownloadForOfflineRoundedIcon fontSize="small" />}
-                    {content.readTime ? (
-                      <Typography variant="body2" color="text.secondary" style={{ marginLeft: "0.75rem" }} >
-                        {content.readTime} min read
+                {
+                  content.publishedOn ? 
+                  <div>
+                    <div className={styles.displayFlex}>
+                    <div className={styles.cardTime}>
+                      <CalendarMonthOutlinedIcon fontSize="small" />
+                      <Typography variant="body2" color="text.secondary" style={{ marginLeft: "12px" }}>
+                        {content.publishedOn}
                       </Typography>
-                    ) : 
-                    
-                    content.stars ?
-                    (
-                      <Typography variant="body2" color="text.secondary" style={{ marginLeft: "0.75rem" }} >
-                        {content.stars} stars
-                      </Typography>
-                    ):
-                    (
-                      <Typography variant="body2" color="text.secondary" style={{ marginLeft: "0.75rem" }} >
-                        {content.downloads} downloads
-                      </Typography>
-                    )}
+                    </div>
+
+                    <div className={styles.cardClock}>
+                      {content.readTime ? <AccessTimeOutlinedIcon fontSize="small" /> : content.stars ? <StarIcon fontSize="small" /> : <DownloadForOfflineRoundedIcon fontSize="small" />}
+
+
+                      {content.readTime ? (
+                        <Typography variant="body2" color="text.secondary" style={{ marginLeft: "0.75rem" }} >
+                          {content.readTime} min read
+                        </Typography>
+                      ) : 
+                      
+                      content.stars ?
+                      (
+                        <Typography variant="body2" color="text.secondary" style={{ marginLeft: "0.75rem" }} >
+                          {content.stars} stars
+                        </Typography>
+                      ):
+                      (
+                        <Typography variant="body2" color="text.secondary" style={{ marginLeft: "0.75rem" }} >
+                          {content.downloads} downloads
+                        </Typography>
+                      )}
+                    </div>
                   </div>
-                </div>
+                  </div> : <></>
+
+                }  
+                
               </div>
             </CardContent>
       </Card>

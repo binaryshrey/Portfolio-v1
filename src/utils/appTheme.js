@@ -4,7 +4,7 @@ const darkTheme = createTheme({
   palette: {
     mode: "dark",
     background: {
-      default: "#202020",
+      default: "#0d0d0d",
     },
   },
 })
