@@ -11,9 +11,9 @@
         "Substack" : "https://substack.com/@shreyanshsaurabh",
         "Spotify" : "https://open.spotify.com/playlist/5iXLfeB49XFrpI27b8xBGb?si=bedb54fead154563"
     },
-    "description1": "Self-driven and certified android developer with 2+ years of experience, specializing in the development of intricate mobile and web applications. Proficient in leveraging Kotlin language with agile methodology to create sophisticated and innovative solutions, bounded by an unwavering passion to learn new technologies",
-    "description2": "Throughout my journey as an Android developer, my unwavering passion for learning and staying abreast of emerging technologies serves as the foundation of my success. I remain committed to honing my skills and embracing new innovations, enabling me to push the boundaries of what's possible in mobile development.",
-    "description3": "My expertise extends beyond Kotlin to encompass a diverse array of cutting-edge technologies. Among these are React, FastAPI and SQLite stand prominent, as they serve as indispensable tools in crafting seamless and feature-rich mobile and web applications.",
+    "description1": "Self-driven and certified fullstack developer with 3+ years of experience, specializing in the development of intricate mobile and web applications. Proficient in leveraging JavaScript, Kotlin and Python language with agile methodology to create sophisticated and innovative solutions, bounded by an unwavering passion to learn new technologies.",
+    "description2": "Throughout my journey as a fullstack developer, my unwavering passion for learning and staying abreast of emerging technologies serves as the foundation of my success. I remain committed to honing my skills and embracing new innovations, enabling me to push the boundaries of what's possible in software development.",
+    "description3": "My expertise extends beyond JavaScript and Python to encompass a diverse array of cutting-edge technologies. Among these are React, FastAPI and SQLite stand prominent, as they serve as indispensable tools in crafting seamless and feature-rich mobile and web applications.",
     "description4": "Moreover, my self-driven nature pushes me to tackle intricate challenges with tenacity, consistently delivering solutions that exceed expectations. By adhering to agile practices, I adeptly navigate the development process, ensuring a seamless and collaborative workflow, while continuously refining my craft to deliver top-notch applications that leave a lasting impact on users.",
 
     "contents" : [
@@ -26,9 +26,51 @@
             "type" : "Bio"
         },
         {
+            "name":"Blogosaurus",
+            "description" : "Publish blogs at the speed of light : Instantly share your thoughts with our blazing-fast blogging platform!",
+            "link" : "https://blogosaurus.vercel.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/blogo.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/blogo-mobile.webp",
+            "tags" : [
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Blogosaurus"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://blogosaurus.vercel.app/"
+                }],
+            "type" : "Project",
+            "publishedOn" : "June - 2024",
+            "readTime" : null,
+            "stars" : "5+",
+            "downloads": null
+        },
+        {
+            "name":"Chronos",
+            "description" : "A minimalistic kanban board app : project management and issue tracking for everyone!",
+            "link" : "https://chronos-inc.vercel.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/chronos.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/chronos-mobile.webp",
+            "tags" : [
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Chronos"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://chronos-inc.vercel.app/"
+                }],
+            "type" : "Project",
+            "publishedOn" : "June - 2024",
+            "readTime" : null,
+            "stars" : "5+",
+            "downloads": null
+        },
+        {
             "name":"Avatars AI",
             "description" : "Your Personalised AI Chat Companion With 50+ Avatars Over 10+ Categories - Powered by ChatGPT, GPT4 & Bard AI",
-            "link" : "https://avatars-ai.chat/",
+            "link" : "https://avatarsai-app.netlify.app/",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/avatars-ai.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/avatars-ai.webp",
             "tags" : [{
@@ -45,7 +87,7 @@
                 },
                 {
                     "name": "Web",
-                    "uri" : "https://avatarsai.app/"
+                    "uri" : "https://avatarsai-app.netlify.app/"
                 }],
             "type" : "Project",
             "publishedOn" : "May - 2023",
@@ -78,13 +120,13 @@
         {
             "name":"NotesBay",
             "description" : "Notes • Todos • AI Writing Assistant - Powered By ChatGPT & GPT4 AI",
-            "link" : "https://notesbay.app/",
+            "link" : "https://notesbay.netlify.app/",
             "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/notesbay.webp",
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/notesbay.webp",
             "tags" : [
                 {
                     "name": "Play Store",
-                    "uri" : "https://play.google.com/store/apps/details?id=dev.shreyansh.notesBay"
+                    "uri" : "https://play.google.com/store/apps/details?id=dev.shreyansh.notesbay.notes.ai.chat.gpt.chatbot"
                 },
                 {
                     "name": "GitHub",
@@ -92,7 +134,7 @@
                 },
                 {
                     "name": "Web",
-                    "uri" : "https://notesbay.app/"
+                    "uri" : "https://notesbay.netlify.app/"
                 }],
             "type" : "Project",
             "publishedOn" : "Apr - 2023",
@@ -140,7 +182,7 @@
                 }],
             "type" : "Blog",
             "link" : "https://shreyanshsaurabh.hashnode.dev/react-101",
-            "publishedOn" : "July - 2024",
+            "publishedOn" : "June - 2024",
             "readTime" : "8",
             "stars" : null,
             "downloads": null
@@ -160,7 +202,7 @@
                 }],
             "type" : "Blog",
             "link" : "https://shreyanshsaurabh.hashnode.dev/beginners-guide-to-understanding-the-internet",
-            "publishedOn" : "July - 2024",
+            "publishedOn" : "June - 2024",
             "readTime" : "6",
             "stars" : null,
             "downloads": null
