@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/069a4258-5f66-4f64-b1de-5b53e76e3762/deploy-status)](https://app.netlify.com/sites/shreyanshsaurabh/deploys)
 
 A minimalistic portfolio site built with Gatsby - [View](https://shreyanshsaurabh.netlify.app/)
 
