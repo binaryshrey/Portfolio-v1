@@ -19,12 +19,15 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-netlify',
+    },
+    {
+      resolve:`gatsby-plugin-sitemap`
     }
   ],
   siteMetadata: {
     title: "Shreyansh Saurabh",
-    description: "FullStack Android Developer : Portfolio site",
+    description: "FullStack Developer : Portfolio site",
     image: `/logo.webp`,
-    siteUrl: `https://shreyansh.dev/`,
+    siteUrl: `https://shreyanshsaurabh.vercel.app/`,
   },
 }
