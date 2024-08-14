@@ -25,6 +25,27 @@
             "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/bento_mobile.webp",
             "type" : "Bio"
         },
+	{
+            "name":"Bubbles",
+            "description" : "Instantly Share & Celebrate Your Magical Moments - with Bubbles album links that pops after 5 mins.",
+            "link" : "https://bubbles-inc.vercel.app/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/bubbles.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/bubbles.webp",
+            "tags" : [
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Bubbles"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://bubbles-inc.vercel.app/"
+                }],
+            "type" : "Project",
+            "publishedOn" : "July - 2024",
+            "readTime" : null,
+            "stars" : "5+",
+            "downloads": null
+        },
         {
             "name":"Blogosaurus",
             "description" : "Publish blogs at the speed of light : Instantly share your thoughts with our blazing-fast blogging platform!",
