@@ -19,6 +19,7 @@
     "@mui/material": "^5.14.1",
     "@netlify/plugin-gatsby": "^3.7.0",
     "@react-icons/all-files": "^4.1.0",
+    "aos": "^3.0.0-beta.6",
     "gatsby": "^5.11.0",
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-manifest": "^5.11.0",
@@ -37,5 +38,11 @@
   },
   "bugs": {
     "url": "https://github.com/binaryshrey/Portfolio/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
   }
 }

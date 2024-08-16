@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/global.css";
 import { SeoConfig } from "../components/seo";
 import Container from "../components/container";
 

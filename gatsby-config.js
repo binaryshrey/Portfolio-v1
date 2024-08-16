@@ -22,6 +22,9 @@ module.exports = {
     },
     {
       resolve:`gatsby-plugin-sitemap`
+    },
+    {
+      resolve : 'gatsby-plugin-postcss',
     }
   ],
   siteMetadata: {
