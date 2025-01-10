@@ -17,15 +17,7 @@
     "description4": "Moreover, my self-driven nature pushes me to tackle intricate challenges with tenacity, consistently delivering solutions that exceed expectations. By adhering to agile practices, I adeptly navigate the development process, ensuring a seamless and collaborative workflow, while continuously refining my craft to deliver top-notch applications that leave a lasting impact on users.",
 
     "contents" : [
-        {
-            "name":"Bento - Bio",
-            "description" : "Collection of all social links in one place.",
-            "link" : "https://bento.me/shreyanshsaurabh",
-            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/bento.webp",
-            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/bento_mobile.webp",
-            "type" : "Bio"
-        },
-	{
+	    {
             "name":"Bubbles",
             "description" : "Instantly Share & Celebrate Your Magical Moments - with Bubbles album links that pops after 5 mins.",
             "link" : "https://bubbles-inc.vercel.app/",
@@ -84,6 +76,27 @@
                 }],
             "type" : "Project",
             "publishedOn" : "June - 2024",
+            "readTime" : null,
+            "stars" : "5+",
+            "downloads": null
+        },
+        {
+            "name":"Profolyo",
+            "description" : "The Fastest Way To Build Professional Portfolios",
+            "link" : "https://www.profolyo.me/",
+            "imageURI" : "https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/profolyo.webp",
+            "imageURIMobile":"https://raw.githubusercontent.com/binaryshrey/Portfolio/main/assets/mobile/profolyo-mobile.webp",
+            "tags" : [
+                {
+                    "name": "GitHub",
+                    "uri" : "https://github.com/binaryshrey/Profolyo"
+                },
+                {
+                    "name": "Web",
+                    "uri" : "https://www.profolyo.me/"
+                }],
+            "type" : "Project",
+            "publishedOn" : "July - 2024",
             "readTime" : null,
             "stars" : "5+",
             "downloads": null
