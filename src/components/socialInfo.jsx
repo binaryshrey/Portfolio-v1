@@ -67,20 +67,6 @@ const SocialInfo = () => {
 					className={styles.socialPadding}
 				>
 					<a
-						href={db.socials.Spotify}
-						className="text-zinc-400 hover:text-white"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<FaSpotify size={20} />
-					</a>
-				</div>
-				<div
-					data-aos="zoom-in"
-					data-aos-duration="800"
-					className={styles.socialPadding}
-				>
-					<a
 						href={db.socials.Hashnode}
 						className="text-zinc-400 hover:text-white"
 						target="_blank"
@@ -91,16 +77,16 @@ const SocialInfo = () => {
 				</div>
 				<div
 					data-aos="zoom-in"
-					data-aos-duration="900"
+					data-aos-duration="800"
 					className={styles.socialPadding}
 				>
 					<a
-						href={db.socials.Substack}
+						href={db.socials.Spotify}
 						className="text-zinc-400 hover:text-white"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<SiSubstack size={20} />
+						<FaSpotify size={20} />
 					</a>
 				</div>
 			</div>
