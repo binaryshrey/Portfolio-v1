@@ -31,6 +31,6 @@ module.exports = {
     title: "Shreyansh Saurabh",
     description: "FullStack Developer : Portfolio site",
     image: `/logo.webp`,
-    siteUrl: `https://shreyanshsaurabh.vercel.app/`,
+    siteUrl: `https://www.shreyanshsaurabh.com/`,
   },
 }
