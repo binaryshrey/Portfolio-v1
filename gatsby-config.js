@@ -25,6 +25,14 @@ module.exports = {
     },
     {
       resolve : 'gatsby-plugin-postcss',
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.shreyanshsaurabh.com',
+        sitemap: 'https://www.shreyanshsaurabh.com/sitemap-0.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
     }
   ],
   siteMetadata: {
