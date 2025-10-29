@@ -2,7 +2,7 @@
 
 A minimalistic portfolio site built with Gatsby - [View](https://shreyanshsaurabh.netlify.app/)
 
-![Banner](https://raw.githubusercontent.com/binaryshrey/Portfolio/main/static/Banner.webp)
+![Banner](https://raw.githubusercontent.com/binaryshrey/Portfolio-v1/main/static/Banner.webp)
 
 ### Development setup
 
@@ -27,7 +27,7 @@ Build is generated at `public` (which is deployable).
 
 ### Lighthouse scores
 
-![Lighthouse metrics](https://raw.githubusercontent.com/binaryshrey/Portfolio/main/static/Lighthouse.webp)
+![Lighthouse metrics](https://raw.githubusercontent.com/binaryshrey/Portfolio-v1/main/static/Lighthouse.webp)
 
 
 
